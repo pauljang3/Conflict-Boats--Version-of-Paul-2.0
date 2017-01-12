@@ -134,9 +134,12 @@ public class LeftField extends JPanel{
           if(jb[i][j]==event.getSource()){          
             jb[i][j].setEnabled(true);
             ImageIcon xImage=new ImageIcon (this.getClass().getResource("x.jpg"));
-            jb[i][j].setIcon(xImage);
             
-            System.out.println("######" +divider.size[0]);
+           
+            for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+               jb[i][j+a].setIcon(xImage);
+            }
+     
             
           }
         }
@@ -147,6 +150,10 @@ public class LeftField extends JPanel{
     
   }//end of whole THING HERE
   
+  
+  
+  
+
   
   
   
