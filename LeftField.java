@@ -149,6 +149,8 @@ public class LeftField extends JPanel{
              
     
   }//end of whole THING HERE
+
+//HEY NIGGERS MARK FIXED OUr program haHA we are not screwed yet
   
   
   
