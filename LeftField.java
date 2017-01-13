@@ -104,8 +104,8 @@ public class LeftField extends JPanel{
       public void actionPerformed(ActionEvent e){
         JOptionPane.showMessageDialog (null, "I want to clear everything");
         
-        for (int i = 0; i < 15; i++){
-              for (int j = 0 ; j < 15; j++){
+        for (int i = 0; i < 8; i++){
+              for (int j = 0 ; j < 8; j++){
                 ImageIcon Water=new ImageIcon (this.getClass().getResource("Water.jpg"));
                 jb[i][j].setIcon(Water);
               }
@@ -126,22 +126,68 @@ public class LeftField extends JPanel{
     public void actionPerformed(ActionEvent event) {
       
       
-      
+     
       for(int i=0;i<jb.length;i++){
         for(int j=0;j<jb[0].length;j++){
-          
+
           
           if(jb[i][j]==event.getSource()){          
             jb[i][j].setEnabled(true);
             ImageIcon xImage=new ImageIcon (this.getClass().getResource("x.jpg"));
+
+                
+
+
             
-           
-            for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
-               jb[i][j+a].setIcon(xImage);
-            }
-     
+
+        String Direction = JOptionPane.showInputDialog (null, "Please choose a direction");
+        //If user chooses North Direction
+        if (!Direction.substring(0,1).equalsIgnoreCase("N") || !Direction.substring(0,1).equalsIgnoreCase("E") || 
+            !Direction.substring(0,1).equalsIgnoreCase("W") || !Direction.substring(0,1).equalsIgnoreCase("S")){
+          JOptionPane.showInputDialog (null, "Sorry, you did not enter a direction, please enter 'North', 'East', 'South', or 'West'.");
+          
+        }
+        if (Direction.substring(0,1).equalsIgnoreCase("N")){
+              jb[i][j].setIcon(xImage);
+              jb[i-1][j].setIcon(xImage);
+              jb[i-2][j].setIcon(xImage);
+              jb[i-3][j].setIcon(xImage);
+              jb[i-4][j].setIcon(xImage); 
+        }
+        
+        //If user chooses East Direction
+        if (Direction.substring(0,1).equalsIgnoreCase("E")){
+              jb[i][j].setIcon(xImage);
+              jb[i][j+1].setIcon(xImage);
+              jb[i][j+2].setIcon(xImage);
+              jb[i][j+3].setIcon(xImage);
+              jb[i][j+4].setIcon(xImage); 
+        }
+        
+        //If user chooses West Direction
+        if (Direction.substring(0,1).equalsIgnoreCase("W")){
+              jb[i][j].setIcon(xImage);
+              jb[i][j-1].setIcon(xImage);
+              jb[i][j-2].setIcon(xImage);
+              jb[i][j-3].setIcon(xImage);
+              jb[i][j-4].setIcon(xImage); 
+        }
+        
+        
+        //If user chooses South Direction
+        if (Direction.substring(0,1).equalsIgnoreCase("S")){
+              jb[i][j].setIcon(xImage);
+              jb[i+1][j].setIcon(xImage);
+              jb[i+2][j].setIcon(xImage);
+              jb[i+3][j].setIcon(xImage);
+              jb[i+4][j].setIcon(xImage); 
+              
+        }
+        
+            System.out.println("######" + divider.size[0]);
             
           }
+
         }
       }
     }
@@ -149,13 +195,7 @@ public class LeftField extends JPanel{
              
     
   }//end of whole THING HERE
-
-//HEY NIGGERS MARK FIXED OUr program haHA we are not screwed yet
   
-  
-  
-  
-
   
   
   
