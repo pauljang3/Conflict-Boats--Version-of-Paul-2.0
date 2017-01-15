@@ -208,7 +208,7 @@ public class LeftField extends JPanel{
     
     boolean isPositionValid(int i, int j, String direction, int size){
       boolean result = true;
-      if (direction.equals("N")){
+      if (direction.equalsIgnoreCase("N")){
         
         if (i - size < -1) result =  false;
         else {
@@ -218,10 +218,10 @@ public class LeftField extends JPanel{
         }
         
         
-      } else if (direction.equals("S")){
+      } else if (direction.equalsIgnoreCase("S")){
         if (i + size > 15) result =  false;
        
-      } else if (direction.equals("E")){
+      } else if (direction.equalsIgnoreCase("E")){
         
       } else {
         
