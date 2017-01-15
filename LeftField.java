@@ -135,55 +135,51 @@ public class LeftField extends JPanel{
             jb[i][j].setEnabled(true);
             ImageIcon xImage=new ImageIcon (this.getClass().getResource("x.jpg"));
 
-                
+        
+
 
 
             
 
         String Direction = JOptionPane.showInputDialog (null, "Please choose a direction");
         //If user chooses North Direction
-        if (!Direction.substring(0,1).equalsIgnoreCase("N") || !Direction.substring(0,1).equalsIgnoreCase("E") || 
-            !Direction.substring(0,1).equalsIgnoreCase("W") || !Direction.substring(0,1).equalsIgnoreCase("S")){
+        if (!Direction.substring(0,1).equalsIgnoreCase("N") && !Direction.substring(0,1).equalsIgnoreCase("E") && 
+            !Direction.substring(0,1).equalsIgnoreCase("W") && !Direction.substring(0,1).equalsIgnoreCase("S")){
           JOptionPane.showInputDialog (null, "Sorry, you did not enter a direction, please enter 'North', 'East', 'South', or 'West'.");
           
         }
         if (Direction.substring(0,1).equalsIgnoreCase("N")){
-              jb[i][j].setIcon(xImage);
-              jb[i-1][j].setIcon(xImage);
-              jb[i-2][j].setIcon(xImage);
-              jb[i-3][j].setIcon(xImage);
-              jb[i-4][j].setIcon(xImage); 
+            for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                    ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
+           jb[i-a][j].setIcon(destroyer); 
+         
+          
+          }//end of for loop
         }
         
         //If user chooses East Direction
         if (Direction.substring(0,1).equalsIgnoreCase("E")){
-              jb[i][j].setIcon(xImage);
-              jb[i][j+1].setIcon(xImage);
-              jb[i][j+2].setIcon(xImage);
-              jb[i][j+3].setIcon(xImage);
-              jb[i][j+4].setIcon(xImage); 
+                          for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                    ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
+           jb[i][j+a].setIcon(destroyer); 
         }
-        
+        }
         //If user chooses West Direction
         if (Direction.substring(0,1).equalsIgnoreCase("W")){
-              jb[i][j].setIcon(xImage);
-              jb[i][j-1].setIcon(xImage);
-              jb[i][j-2].setIcon(xImage);
-              jb[i][j-3].setIcon(xImage);
-              jb[i][j-4].setIcon(xImage); 
+                          for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                    ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
+           jb[i][j-a].setIcon(destroyer); 
         }
-        
+        }
         
         //If user chooses South Direction
         if (Direction.substring(0,1).equalsIgnoreCase("S")){
-              jb[i][j].setIcon(xImage);
-              jb[i+1][j].setIcon(xImage);
-              jb[i+2][j].setIcon(xImage);
-              jb[i+3][j].setIcon(xImage);
-              jb[i+4][j].setIcon(xImage); 
+            for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                    ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
+           jb[i+a][j].setIcon(destroyer); 
               
         }
-        
+        }
             System.out.println("######" + divider.size[0]);
             
           }
