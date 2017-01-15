@@ -2,6 +2,10 @@ import java.awt.*;
 import javax.swing.*;
 
 public class Board {
+  
+  static boolean isGameOn = true;
+  static boolean hasSetupDonePlayer1 = false;
+  static boolean hasSetupDonePlayer2 = false;
 
  public static void main(String[] args) {
   
@@ -10,8 +14,9 @@ public class Board {
   frame.setLayout(new GridLayout(1, 3));
   
   Divider divider = new Divider();
+  LeftField leftField = new LeftField(divider);
   
-  frame.add(new LeftField(divider));
+  frame.add(leftField);
   frame.add(divider);
   frame.add(new RightField());
   frame.setLocationRelativeTo(null);
@@ -19,6 +24,15 @@ public class Board {
   frame.setVisible(true);
   frame.setExtendedState(frame.getExtendedState() | JFrame.MAXIMIZED_BOTH);
   
+//  while(isGameOn){
+    
+
+    
+    
+
+    
+//    isGameOn = false;
+//  }
 
  }
 

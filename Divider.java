@@ -59,5 +59,9 @@ public class Divider extends JPanel {
     
   }
   
+  public JButton[] getButtons(){
+    return jb;
+  }
+  
 
 }

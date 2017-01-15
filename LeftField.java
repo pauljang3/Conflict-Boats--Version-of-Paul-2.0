@@ -91,6 +91,8 @@ public class LeftField extends JPanel{
     
     
     
+    
+    
     //CLEAR Panel
     cashPanel.setLayout(new GridLayout(2,1));
     JLabel cashDisplay = new JLabel("                                        CASH: $" + cash);
@@ -117,6 +119,9 @@ public class LeftField extends JPanel{
     
   }
   
+  public Player getPlayer(){
+    return p1; 
+  }
   
   
   
@@ -131,27 +136,39 @@ public class LeftField extends JPanel{
         for(int j=0;j<jb[0].length;j++){
 
           
-          if(jb[i][j]==event.getSource()){          
-            jb[i][j].setEnabled(true);
-            ImageIcon xImage=new ImageIcon (this.getClass().getResource("x.jpg"));
-
-        
-
-
-
+          if(jb[i][j]==event.getSource()){
+            System.out.println(i + " " + j);
             
 
-        String Direction = JOptionPane.showInputDialog (null, "Please choose a direction");
-        //If user chooses North Direction
-        if (!Direction.substring(0,1).equalsIgnoreCase("N") && !Direction.substring(0,1).equalsIgnoreCase("E") && 
-            !Direction.substring(0,1).equalsIgnoreCase("W") && !Direction.substring(0,1).equalsIgnoreCase("S")){
-          JOptionPane.showInputDialog (null, "Sorry, you did not enter a direction, please enter 'North', 'East', 'South', or 'West'.");
-          
-        }
+        
+       
+       String Direction = null;
+        
+          Direction = JOptionPane.showInputDialog (null, "Please choose a direction");
+          boolean isValid = false;   
+           while (!isValid){
+        
+            //If user chooses North Direction
+            if (!Direction.substring(0,1).equalsIgnoreCase("N") && !Direction.substring(0,1).equalsIgnoreCase("E") && 
+              !Direction.substring(0,1).equalsIgnoreCase("W") && !Direction.substring(0,1).equalsIgnoreCase("S")){
+               JOptionPane.showInputDialog (null, "Sorry, you did not enter a direction, please enter 'North', 'East', 'South', or 'West'.");
+               isValid = false;
+             } else {
+               isValid = true;     
+             }
+        
+           } 
+           if (!isPositionValid(i, j, Direction.substring(0,1), Integer.parseInt(divider.size[0])){
+             JOptionPane.showMessageDialog(null, "Wrong Position! Try Again!");
+             return;
+           }
+        
+        
         if (Direction.substring(0,1).equalsIgnoreCase("N")){
             for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
                     ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
-           jb[i-a][j].setIcon(destroyer); 
+                    jb[i-a][j].setIcon(destroyer); 
+                    p1.getShips()[Integer.parseInt(divider.size[0])].setSize(Integer.parseInt(divider.size[0]) + 1);
          
           
           }//end of for loop
@@ -159,35 +176,64 @@ public class LeftField extends JPanel{
         
         //If user chooses East Direction
         if (Direction.substring(0,1).equalsIgnoreCase("E")){
-                          for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+             for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
                     ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
-           jb[i][j+a].setIcon(destroyer); 
-        }
+                    jb[i][j+a].setIcon(destroyer); 
+             }
         }
         //If user chooses West Direction
         if (Direction.substring(0,1).equalsIgnoreCase("W")){
-                          for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+             for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
                     ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
-           jb[i][j-a].setIcon(destroyer); 
-        }
+                    jb[i][j-a].setIcon(destroyer); 
+             }
         }
         
         //If user chooses South Direction
         if (Direction.substring(0,1).equalsIgnoreCase("S")){
             for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
                     ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
-           jb[i+a][j].setIcon(destroyer); 
+                    jb[i+a][j].setIcon(destroyer); 
               
+            }
         }
-        }
-            System.out.println("######" + divider.size[0]);
+            System.out.println("###### " + divider.size[0]);
             
           }
 
         }
       }
+      
     }
+    
+    boolean isPositionValid(int i, int j, String direction, int size){
+      boolean result = true;
+      if (direction.equals("N")){
+        
+        if (i - size < -1) result =  false;
+        else {
+          for (int k = i; k < i + size; k++){
+            if (p1.getShipPosition(k, j) != 0) result = false;
+          }
+        }
+        
+        
+      } else if (direction.equals("S")){
+        if (i + size > 15) result =  false;
+       
+      } else if (direction.equals("E")){
+        
+      } else {
+        
+      }
+      
+      
+      return result;
+    } 
+    
   }
+  
+  
              
     
   }//end of whole THING HERE
