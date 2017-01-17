@@ -8,7 +8,7 @@ public class Divider extends JPanel {
   JButton[] jb = new JButton[6];
   
   public final String[] size = new String[1];
-
+  public boolean isSelected = false;
   public Divider()
   {
     init();
@@ -49,7 +49,7 @@ public class Divider extends JPanel {
           size[0] = ((JButton)event.getSource()).getName();
           
         }
-
+        isSelected = true;
       });
       
     }
