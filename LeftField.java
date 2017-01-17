@@ -4,7 +4,7 @@ import java.awt.event.*;
 
 
 public class LeftField extends JPanel{
-
+  
   //Creation of variables
   JButton[][] jb = new JButton[15][15];
   int cash = 4000;
@@ -61,8 +61,8 @@ public class LeftField extends JPanel{
     //Adds the sub-panels to the bottom panel
     bottomPanel.add(bombPanel); 
     bottomPanel.add(clearPanel); 
-       
-    //******BOMB PANEL******
+    
+    //******bomb panel******
     bombPanel.setLayout(new GridLayout(3,1)); //Sets GridLayout to (3,1) for bomb panel so that 3 radio buttons can be placed
     
     //Declares the radio buttons
@@ -80,7 +80,7 @@ public class LeftField extends JPanel{
     bombPanel.add(missileB);
     bombPanel.add(airStrikeB);
     bombPanel.add(bombardmentB);
-   
+    
     //Action listner for missile option
     missileB.addActionListener(new ActionListener (){
       
@@ -103,14 +103,8 @@ public class LeftField extends JPanel{
         JOptionPane.showMessageDialog (null, "Third action listener");
       }    
     }); 
-    
-
-    
-    
-    
-    
-    
-    //******CLEAR PANEL******
+         
+    //******clear panel******
     clearPanel.setLayout(new GridLayout(2,1)); 
     JLabel cashDisplay = new JLabel("                                        CASH: $" + cash); //Displays player's cash
     JButton clear = new JButton("CLEAR"); //Creates new clear button
@@ -124,17 +118,26 @@ public class LeftField extends JPanel{
       //Clear function action listener
       public void actionPerformed(ActionEvent e){       
         for (int i = 0; i < 15; i++){
-              for (int j = 0 ; j < 15; j++){
-                ImageIcon Water=new ImageIcon (this.getClass().getResource("Water.jpg")); 
-                jb[i][j].setIcon(Water); //Resets all the buttons to the water image
-              }
+          for (int j = 0 ; j < 15; j++){
+            ImageIcon Water=new ImageIcon (this.getClass().getResource("Water.jpg")); 
+            jb[i][j].setIcon(Water); //Resets all the buttons to the water image
+          }
         }
+        
+        //Resets all the values of referenceBoard to -1
+              int [][] referenceBoard= new int [15][15];
+              for(int row=0 ; row < 15 ; row++){
+                for(int column=0 ; column < 15 ; column++ ){
+                referenceBoard[row][column]=-1;
+                }
+              }
+        
       }
       
       
     }); //End of action listener for clear function
     
-        add(bottomPanel, BorderLayout.SOUTH); //Puts the bottomPanel in the bttom of border layout     
+    add(bottomPanel, BorderLayout.SOUTH); //Puts the bottomPanel in the bttom of border layout     
     
   } //end of begin()
   
@@ -144,87 +147,96 @@ public class LeftField extends JPanel{
   
   
   
-  //Boat placement action listener
+  //------------------BOAT PLACEMENT ACTION LISTENER------------------
   class buttonListener implements ActionListener {
     
     public void actionPerformed(ActionEvent event) {
-    
-    //Apply action listener to all water buttons  
+      
+      
+      //Stores all places on the referenceBoard to -1
+              int [][] referenceBoard= new int [15][15];
+              for(int row=0 ; row < 15 ; row++){
+                for(int column=0 ; column < 15 ; column++ ){
+                referenceBoard[row][column]=-1;
+                }
+              }
+      
+      //Apply action listener to all water buttons  
       for(int i=0;i<jb.length;i++){
         for(int j=0;j<jb[0].length;j++){
-
+          
           //If a water button is pressed
           if(jb[i][j]==event.getSource()){
             
-          String Direction = null;
-        
-          //Gives user option to choose what direction to place their ships
-          Direction = JOptionPane.showInputDialog (null, "Please choose a direction");
-          
-          boolean isValid; //Declares variable for direction input error checking
-          
-          
-           do{
-             //If user does not input a valid direction
-            if (!Direction.substring(0,1).equalsIgnoreCase("N") && !Direction.substring(0,1).equalsIgnoreCase("E") && 
-              !Direction.substring(0,1).equalsIgnoreCase("W") && !Direction.substring(0,1).equalsIgnoreCase("S")){
-                Direction = JOptionPane.showInputDialog (null, "Sorry, you did not enter a direction, please enter 'North', 'East', 'South', or 'West'."); //Lets user input again
-               isValid = false;
-             }
+            String Direction = null;
             
-            //Exits the loop once the user inputs a valid direction
-            else if (Direction.substring(0,1).equalsIgnoreCase("N") && Direction.substring(0,1).equalsIgnoreCase("E") && 
-              Direction.substring(0,1).equalsIgnoreCase("W") && Direction.substring(0,1).equalsIgnoreCase("S")){
-               isValid = true;     
-             }
-        
-           }while (isValid=false);
-           
-           
-           if (!isPositionValid(i, j, Direction.substring(0,1), Integer.parseInt(divider.size[0]))){
-             JOptionPane.showMessageDialog(null, "Wrong Position! Try Again!");
-             return;
-           }
-        
-      //If user chooses North Direction 
-        if (Direction.substring(0,1).equalsIgnoreCase("N")){
-            for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
-                    ImageIcon shipImage=new ImageIcon (this.getClass().getResource("ship.jpg"));
-                    jb[i-a][j].setIcon(shipImage);  
-            }
-        } //end of north option
-        
-        //If user chooses South Direction
-        if (Direction.substring(0,1).equalsIgnoreCase("S")){
-            for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
-                    ImageIcon shipImage=new ImageIcon (this.getClass().getResource("ship.jpg"));
-                    jb[i+a][j].setIcon(shipImage); 
-              
-            }
-        } //end of south direction
-        
-        //If user chooses East Direction
-        if (Direction.substring(0,1).equalsIgnoreCase("E")){
-             for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
-                    ImageIcon shipImage=new ImageIcon (this.getClass().getResource("ship.jpg"));
-                    jb[i][j+a].setIcon(shipImage); 
-             }
-        } //end of east direction
-        
-        //If user chooses West Direction
-        if (Direction.substring(0,1).equalsIgnoreCase("W")){
-             for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
-                    ImageIcon shipImage=new ImageIcon (this.getClass().getResource("ship.jpg"));
-                    jb[i][j-a].setIcon(shipImage); 
-             }
-        } //end of west direction
-        
-        
+            //Gives user option to choose what direction to place their ships
+            Direction = JOptionPane.showInputDialog (null, "Please choose a direction");
             
-          }
-
+            boolean isValid; //Declares variable for direction input error checking
+            
+  
+            do{
+              //If user does not input a valid direction
+              if (!Direction.substring(0,1).equalsIgnoreCase("N") && !Direction.substring(0,1).equalsIgnoreCase("E") && 
+                  !Direction.substring(0,1).equalsIgnoreCase("W") && !Direction.substring(0,1).equalsIgnoreCase("S")){
+                
+                //Lets user input again
+                JOptionPane.showMessageDialog (null, "Sorry, you did not enter a direction, please enter 'North', 'East', 'South', or 'West'."); 
+                isValid = false;
+              }
+            }while (isValid=false);
+            
+            
+            if (!isPositionValid(i, j, Direction.substring(0,1), Integer.parseInt(divider.size[0]))){
+              JOptionPane.showMessageDialog(null, "Wrong Position! Try Again!");
+              return;
+            }
+            
+            //If user chooses North Direction 
+            if (Direction.substring(0,1).equalsIgnoreCase("N")){
+              for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                ImageIcon shipImage=new ImageIcon (this.getClass().getResource("ship.jpg"));
+                jb[i-a][j].setIcon(shipImage); 
+                referenceBoard[i-a][j]=0;
+              }
+            } //end of north option
+            
+            //If user chooses South Direction
+            if (Direction.substring(0,1).equalsIgnoreCase("S")){
+              for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                ImageIcon shipImage=new ImageIcon (this.getClass().getResource("ship.jpg"));
+                jb[i+a][j].setIcon(shipImage); 
+                referenceBoard[i+a][j]=0;
+                
+              }
+            } //end of south direction
+            
+            //If user chooses East Direction
+            if (Direction.substring(0,1).equalsIgnoreCase("E")){
+              for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                ImageIcon shipImage=new ImageIcon (this.getClass().getResource("ship.jpg"));
+                jb[i][j+a].setIcon(shipImage); 
+                referenceBoard[i][j+a]=0;
+              }
+            } //end of east direction
+            
+            //If user chooses West Direction
+            if (Direction.substring(0,1).equalsIgnoreCase("W")){
+              for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                ImageIcon shipImage=new ImageIcon (this.getClass().getResource("ship.jpg"));
+                jb[i][j-a].setIcon(shipImage); 
+                referenceBoard[i][j-a]=0;
+              }
+            } //end of west direction
+            
+            
+            
+          } //end of if button is clicked
+          
         }
-      }
+      } //end of for loop
+      
       
     }
     
@@ -242,7 +254,7 @@ public class LeftField extends JPanel{
         
       } else if (direction.equalsIgnoreCase("S")){
         if (i + size > 15) result =  false;
-       
+        
       } else if (direction.equalsIgnoreCase("E")){
         
       } else {
@@ -256,10 +268,14 @@ public class LeftField extends JPanel{
   }//end of action listener for water buttons
   
   
-             
-    
-  }//end of whole LeftField class
   
+  
+}//end of whole LeftField class
+
+
+
+
+
   
   
   
