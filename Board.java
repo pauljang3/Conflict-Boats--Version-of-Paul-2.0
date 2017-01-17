@@ -1,10 +1,10 @@
-
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
 public class Divider extends JPanel {
   
+  //Creating five buttons for selection of boats
   JButton[] boatButtons = new JButton[5];
   
   public final String[] size = new String[1];
