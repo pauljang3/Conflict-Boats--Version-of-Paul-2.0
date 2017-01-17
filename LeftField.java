@@ -156,25 +156,29 @@ public class LeftField extends JPanel{
           //If a water button is pressed
           if(jb[i][j]==event.getSource()){
             
-
-           String Direction = null;
+          String Direction = null;
         
+          //Gives user option to choose what direction to place their ships
           Direction = JOptionPane.showInputDialog (null, "Please choose a direction");
-          boolean isValid = false;   
-           while (!isValid){
-        
-
+          
+          boolean isValid; //Declares variable for direction input error checking
+          
+          
+           do{
+             //If user does not input a valid direction
             if (!Direction.substring(0,1).equalsIgnoreCase("N") && !Direction.substring(0,1).equalsIgnoreCase("E") && 
               !Direction.substring(0,1).equalsIgnoreCase("W") && !Direction.substring(0,1).equalsIgnoreCase("S")){
-               JOptionPane.showInputDialog (null, "Sorry, you did not enter a direction, please enter 'North', 'East', 'South', or 'West'.");
+                Direction = JOptionPane.showInputDialog (null, "Sorry, you did not enter a direction, please enter 'North', 'East', 'South', or 'West'."); //Lets user input again
                isValid = false;
              }
             
-            else {
+            //Exits the loop once the user inputs a valid direction
+            else if (Direction.substring(0,1).equalsIgnoreCase("N") && Direction.substring(0,1).equalsIgnoreCase("E") && 
+              Direction.substring(0,1).equalsIgnoreCase("W") && Direction.substring(0,1).equalsIgnoreCase("S")){
                isValid = true;     
              }
         
-           }
+           }while (isValid=false);
            
            
            if (!isPositionValid(i, j, Direction.substring(0,1), Integer.parseInt(divider.size[0]))){
@@ -247,9 +251,9 @@ public class LeftField extends JPanel{
       
       
       return result;
-    } 
+    }// end of isPositionValid 
     
-  }//End of action listener for water buttons
+  }//end of action listener for water buttons
   
   
              
