@@ -1,13 +1,17 @@
 public class Ship {
- int size;
- String direction;
- boolean isDestroyed;
- int xpos;
- int ypos;
- int partsHit;
+ 
+ //Declaration of Variables
+ int size; //Integer size for ship
+ String direction; //String direction for direction of ships
+ boolean isDestroyed; //Boolean isDestroyed to check if a ship is destroyed
+ int xpos; //x-value of coordinate
+ int ypos; //y-value of coordinate
+ int partsHit; //Integer partsHit to see how many parts of ship have been hit
  
  
- //Create methods that set and get variables
+ //Creating methods that set and get variables
+ 
+ 
  public void setSize (int i){
    size = i;
  }
@@ -48,12 +52,8 @@ public class Ship {
  public int getPartsHit() {
    return partsHit;
  }
- 
- 
- 
- 
- 
-}
+
+}//End of ship class
 
 
   
