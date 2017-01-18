@@ -2,85 +2,86 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
-
 public class LeftField extends JPanel{
   
+  //Creating 15 by 15 array of buttons
   JButton[][] jb = new JButton[15][15];
-  int cash = 4000;
-  Player p1 = new Player();
-  Divider divider;
+  int cash = 4000; //Declaring int cash of 4000
+  Player p1 = new Player(); //Creating an object for player one
+  Divider divider; //Creating divider object
   
+  //Calls divider into leftfield
   public LeftField(Divider d){
     divider = d;
     begin();
   }
   
-  
-  
+  //Constructor for game process
   private void begin() {
-    setLayout(new BorderLayout());
-    JLabel title = new JLabel("                                               Player 1");
-    add(title, BorderLayout.NORTH);
+    setLayout(new BorderLayout()); //Setting layout 
+    JLabel title = new JLabel("                                               Player 1"); //Setting up title
+    add(title, BorderLayout.NORTH); //Adding title with BorderLayout
     
-    JPanel middlePanel = new JPanel();
-    middlePanel.setLayout(new GridLayout(15,15));
-    ActionListener buttonListen = new buttonListener();
+    JPanel middlePanel = new JPanel(); //Creating new JPanel
+    middlePanel.setLayout(new GridLayout(15,15)); //Setting layout as gridLayout 
+    ActionListener buttonListen = new buttonListener(); //Declaring actionListener for buttons
+    
+    //For loop to create 15 by 15 array buttons
     for (int i = 0; i < 15; i++){
       for (int j = 0 ; j < 15; j++){
-        jb[i][j] = new JButton();
-        jb[i][j].setPreferredSize(new Dimension(10,10));
-        ImageIcon Water=new ImageIcon (this.getClass().getResource("Water.jpg"));
-        jb[i][j].setIcon(Water);
-        jb[i][j].addActionListener(buttonListen);
-        middlePanel.add(jb[i][j]);
+        jb[i][j] = new JButton(); //Creating new buttons for each time it runs through
+        jb[i][j].setPreferredSize(new Dimension(10,10)); //Setting up dimensions of each button
+        ImageIcon Water=new ImageIcon (this.getClass().getResource("Water.jpg")); //Getting water jpg for buttons
+        jb[i][j].setIcon(Water); //Setting image to button
+        jb[i][j].addActionListener(buttonListen); //Adding action listener for each button
+        middlePanel.add(jb[i][j]); //Adding buttons to middle panel
         
       }
     }
     
+    add(middlePanel, BorderLayout.CENTER); //Adding middlepanel and setting BorderLayout
     
-    add(middlePanel, BorderLayout.CENTER);
+    JPanel bottomPanel = new JPanel(); //Creating new bottom panel
+    bottomPanel.setLayout(new GridLayout(1,2)); //Setting up bottom panel with gridlayout
     
-    JPanel bottomPanel = new JPanel();
-    bottomPanel.setLayout(new GridLayout(1,2));
-    JPanel bombPanel = new JPanel ();
-    JPanel cashPanel = new JPanel ();
-    
+    //Creating and adding bomb and cash panels
+    JPanel bombPanel = new JPanel (); 
+    JPanel cashPanel = new JPanel (); 
     bottomPanel.add(bombPanel);
     bottomPanel.add(cashPanel);
+    
     //Bomb Panel
     bombPanel.setLayout(new GridLayout(3,1));
     
-    
+    //Creating 3 radio buttons for types of missiles
     JRadioButton missileB = new JRadioButton("Missile ($1000)");
     JRadioButton airStrikeB = new JRadioButton("Air Strike ($3000)");
     JRadioButton bombardmentB = new JRadioButton("Bombardment ($10000)");
     
+    //Creating new button group
     ButtonGroup group = new ButtonGroup();
     
+    //Adding missiles to button group
     group.add(missileB);
     group.add(airStrikeB);
     group.add(bombardmentB);
     
+    //Adding buttons to bomb panel
     bombPanel.add(missileB);
     bombPanel.add(airStrikeB);
     bombPanel.add(bombardmentB);
     
+    //Adding action listener to each missile
     bombardmentB.addActionListener(new ActionListener (){
       public void actionPerformed(ActionEvent e){
-        JOptionPane.showMessageDialog (null, "First action listener");
+        JOptionPane.showMessageDialog (null, "First missile");
       }
-      
-      
     }); 
     
-    missileB.addActionListener(new ActionListener (){
-      
+    missileB.addActionListener(new ActionListener (){      
       public void actionPerformed(ActionEvent e){
-        JOptionPane.showMessageDialog (null, "Second action listener");
-        
-      }
-      
-      
+        JOptionPane.showMessageDialog (null, "Second action listener");       
+      }    
     }); 
     
     airStrikeB.addActionListener(new ActionListener (){
@@ -88,66 +89,53 @@ public class LeftField extends JPanel{
         JOptionPane.showMessageDialog (null, "Third action listener");
       }
     });
-    
-    
-    
-    
-    
-    
-    //CLEAR Panel
-    cashPanel.setLayout(new GridLayout(2,1));
-    JLabel cashDisplay = new JLabel("                                        CASH: $" + cash);
-    JButton done = new JButton("CLEAR");
-    cashPanel.add(cashDisplay);
-    cashPanel.add(done);
-    add(bottomPanel, BorderLayout.SOUTH);
-    
-    done.addActionListener(new ActionListener (){
       
+    //CLEAR Panel
+    cashPanel.setLayout(new GridLayout(2,1)); //Setting up layout for cash panel
+    JLabel cashDisplay = new JLabel("                                        CASH: $" + cash); //Adding label for cash
+    JButton done = new JButton("CLEAR"); //Creating button for clearing board
+    cashPanel.add(cashDisplay); //Adding cash display for cash panel
+    cashPanel.add(done); //Adding done button to cash panel
+    add(bottomPanel, BorderLayout.SOUTH); //Adding bottom panel with border layout
+    
+    //Creating action listener for done 
+    done.addActionListener(new ActionListener (){
       public void actionPerformed(ActionEvent e){
-        JOptionPane.showMessageDialog (null, "I want to clear everything");
-        
+        JOptionPane.showMessageDialog (null, "Clearing board..");
+        //For loop to reset each button with icon of water
         for (int i = 0; i < 15; i++){
           for (int j = 0 ; j < 15; j++){
             ImageIcon Water=new ImageIcon (this.getClass().getResource("Water.jpg"));
             jb[i][j].setIcon(Water);
           }
         }
-      }
-      
-      
-    }); 
-    
+      }           
+    });    
   }
   
+  /**
+    * getPlayer method                               
+    * @return p1  Player one
+    */
   public Player getPlayer(){
     return p1; 
   }
-  
-  
   
   //Action listener for water buttons
   class buttonListener implements ActionListener {
     
     public void actionPerformed(ActionEvent event) {
-      
-      
-      
       for(int i=0;i<jb.length;i++){
         for(int j=0;j<jb[0].length;j++){
-          
-          jb[i][j].setEnabled(true);
-          
+          jb[i][j].setEnabled(true);          
           if(jb[i][j]==event.getSource()){
-            
-            
-            
-            
-            
+                   
             String Direction = null;
             
             Direction = JOptionPane.showInputDialog (null, "Please choose a direction");
-            boolean isValid = false;   
+            boolean isValid = false; //Setting valid ship placement to false 
+            
+            //While loop for error checking of ship placement
             while (!isValid){
               
               //If user chooses North Direction
@@ -161,6 +149,8 @@ public class LeftField extends JPanel{
               }
               
             } 
+            
+            //If loop to see if placement of ship is outside of board
             if (!isPositionValid(i, j, Direction.substring(0,1), Integer.parseInt(divider.size[0]))){
               JOptionPane.showMessageDialog(null, "Invalid Position! Please try again!");
               return;
@@ -210,15 +200,20 @@ public class LeftField extends JPanel{
                 p1.getShips()[Integer.parseInt(divider.size[0])-1].setDirection("S");
               }
             }
-            System.out.println("###### " + divider.size[0]);
-            
-          }
-          
+            System.out.println("###### " + divider.size[0]); //Printing size of ship in console          
+          }          
         }
-      }
-      
+      }     
     }
     
+    /**
+      * isPositionValid Method                          
+      * @param i          x-value of ship placement coordinate   
+      * @param j          y-value of ship placement coordinate  
+      * @param direction  User-entered direction
+      * @param size       Size of selected ship
+      * @return result    Boolean value to see if placement is valid
+      */
     boolean isPositionValid(int i, int j, String direction, int size){
       boolean result = true;
       System.out.println("# " + i + ", " + j + ", " + direction + ", " + size);
@@ -260,19 +255,12 @@ public class LeftField extends JPanel{
             for(int k = j; k > j - size; k--) {
               if (p1.getShipPosition(i,k)!=0) result = false;
             }
-          }
-          
-        }
-        
-        
+          }          
+        }         
         return result;
-      } 
-      
-    }
-    
-    
-    
-    
+      }       
+    }   
+  
   }//end of whole THING HERE
   
   
