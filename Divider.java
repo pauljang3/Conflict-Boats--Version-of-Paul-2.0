@@ -57,12 +57,9 @@ public class Divider extends JPanel {
                 
         public void actionPerformed(ActionEvent event) {
           
-          size[0] = ((JButton)event.getSource()).getName();
-          
+          size[0] = ((JButton)event.getSource()).getName();          
         }
-
-      });
-      
+      });     
     }
     
     //Setting each button with appropriate image
@@ -72,9 +69,8 @@ public class Divider extends JPanel {
     jb[2].setIcon(patrol);
     jb[1].setIcon(raft);
     jb[0].setIcon(done);
-    
-    add(middlePanel, BorderLayout.CENTER);
-    
+   
+    add(middlePanel, BorderLayout.CENTER);  
   }
   
   /**
@@ -85,6 +81,4 @@ public class Divider extends JPanel {
   public JButton[] getButtons(){
     return jb;
   }
-  
-  
 }
