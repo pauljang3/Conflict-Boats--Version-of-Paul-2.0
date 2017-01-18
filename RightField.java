@@ -7,7 +7,11 @@ public class RightField extends JPanel{
   
   JButton[][] jb = new JButton[15][15];
   int cash = 4000;
-  public RightField(){
+  Player p2 = new Player();
+  Divider divider;
+  
+  public RightField(Divider d){
+    divider = d;
     begin();
   }
   
@@ -15,7 +19,7 @@ public class RightField extends JPanel{
   
   private void begin() {
     setLayout(new BorderLayout());
-    JLabel title = new JLabel("                                               Player 1");
+    JLabel title = new JLabel("                                               Player 2");
     add(title, BorderLayout.NORTH);
     
     JPanel middlePanel = new JPanel();
@@ -29,6 +33,7 @@ public class RightField extends JPanel{
         jb[i][j].setIcon(Water);
         jb[i][j].addActionListener(buttonListen);
         middlePanel.add(jb[i][j]);
+        
       }
     }
     
@@ -87,6 +92,8 @@ public class RightField extends JPanel{
     
     
     
+    
+    
     //CLEAR Panel
     cashPanel.setLayout(new GridLayout(2,1));
     JLabel cashDisplay = new JLabel("                                        CASH: $" + cash);
@@ -101,10 +108,10 @@ public class RightField extends JPanel{
         JOptionPane.showMessageDialog (null, "I want to clear everything");
         
         for (int i = 0; i < 15; i++){
-              for (int j = 0 ; j < 15; j++){
-                ImageIcon Water=new ImageIcon (this.getClass().getResource("Water.jpg"));
-                jb[i][j].setIcon(Water);
-              }
+          for (int j = 0 ; j < 15; j++){
+            ImageIcon Water=new ImageIcon (this.getClass().getResource("Water.jpg"));
+            jb[i][j].setIcon(Water);
+          }
         }
       }
       
@@ -113,29 +120,14 @@ public class RightField extends JPanel{
     
   }
   
+  public Player getPlayer(){
+    return p2; 
+  }
+  
+  
   
   //Action listener for water buttons
   class buttonListener implements ActionListener {
-    
-    int buttonpress=1;
-    
-    int[] storea = new int[5];
-    int[] storeb = new int[5];
-    
-    int reference [][]; {
-      reference = new int [15][15];
-      
-      
-      //Creating the reference array and setting all values to -1 
-      for(int a=0;a<15;a++){
-        for(int b=0;b<15;b++){
-          
-          reference[a][b]=-1;
-          
-        }
-      }
-    }
-    
     
     public void actionPerformed(ActionEvent event) {
       
@@ -144,31 +136,145 @@ public class RightField extends JPanel{
       for(int i=0;i<jb.length;i++){
         for(int j=0;j<jb[0].length;j++){
           
+          jb[i][j].setEnabled(true);
           
           if(jb[i][j]==event.getSource()){
-            buttonpress++;//Add one to button press after button is clicked
-            jb[i][j].setEnabled(true);
-            ImageIcon xImage=new ImageIcon (this.getClass().getResource("x.jpg"));
-            jb[i][j].setIcon(xImage);
             
+            
+            
+            
+            
+            String Direction = null;
+            
+            Direction = JOptionPane.showInputDialog (null, "Please choose a direction");
+            boolean isValid = false;   
+            while (!isValid){
+              
+              //If user chooses North Direction
+              if (!Direction.substring(0,1).equalsIgnoreCase("N") && !Direction.substring(0,1).equalsIgnoreCase("E") && 
+                  !Direction.substring(0,1).equalsIgnoreCase("W") && !Direction.substring(0,1).equalsIgnoreCase("S")){
+                JOptionPane.showMessageDialog (null, "Sorry, you did not enter a direction, please enter 'North', 'East', 'South', or 'West'.");
+                isValid = false;
+              } else {
+                
+                isValid = true;     
+              }
+              
+            } 
+            if (!isPositionValid(i, j, Direction.substring(0,1), Integer.parseInt(divider.size[0]))){
+              JOptionPane.showMessageDialog(null, "Invalid Position! Please try again!");
+              return;
+            }
+            
+            //If user chooses North Direction
+            if (Direction.substring(0,1).equalsIgnoreCase("N")){
+              for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
+                jb[i-a][j].setIcon(destroyer); 
+                p2.getShips()[Integer.parseInt(divider.size[0])-1].setSize(Integer.parseInt(divider.size[0]));
+                p2.setShipPosition(i-a, j, Integer.parseInt(divider.size[0]));
+                p2.getShips()[Integer.parseInt(divider.size[0])-1].setDirection("N");
+          //      System.out.println((i-a) + ", " + j + ", " + p2.getShipPosition(i-a, j));
+                
+              }//end of for loop
+            }
+            
+            //If user chooses East Direction
+            if (Direction.substring(0,1).equalsIgnoreCase("E")){
+              for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
+                jb[i][j+a].setIcon(destroyer); 
+                p2.getShips()[Integer.parseInt(divider.size[0])-1].setSize(Integer.parseInt(divider.size[0]));
+                p2.setShipPosition(i, j+a, Integer.parseInt(divider.size[0]));     
+                p2.getShips()[Integer.parseInt(divider.size[0])-1].setDirection("E");
+              }
+            }
+            //If user chooses West Direction
+            if (Direction.substring(0,1).equalsIgnoreCase("W")){
+              for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
+                jb[i][j-a].setIcon(destroyer); 
+                p2.getShips()[Integer.parseInt(divider.size[0])-1].setSize(Integer.parseInt(divider.size[0]));
+                p2.setShipPosition(i, j-a, Integer.parseInt(divider.size[0]));   
+                p2.getShips()[Integer.parseInt(divider.size[0])-1].setDirection("W");
+              }
+            }
+            
+            //If user chooses South Direction
+            if (Direction.substring(0,1).equalsIgnoreCase("S")){
+              for(int a = 0; a < Integer.parseInt(divider.size[0]); a++){
+                ImageIcon destroyer=new ImageIcon (this.getClass().getResource("x.jpg"));
+                jb[i+a][j].setIcon(destroyer); 
+                p2.getShips()[Integer.parseInt(divider.size[0])-1].setSize(Integer.parseInt(divider.size[0]));
+                p2.setShipPosition(i+a, j, Integer.parseInt(divider.size[0]));         
+                p2.getShips()[Integer.parseInt(divider.size[0])-1].setDirection("S");
+              }
+            }
+            System.out.println("###### " + divider.size[0]);
             
           }
           
-          if (buttonpress > 100){ //if button press more than 5 times
-            for (i = 0; i < 15; i++){
-              for (j = 0 ; j < 15; j++){
-                ImageIcon Water=new ImageIcon (this.getClass().getResource("Water.jpg"));
-                jb[i][j].setIcon(Water);
-                
-                
-              }     
-            }//end of for loop            
-          }//end of buttonpress if statement
-        }       
-      }//end of for loop for buttons
-    }//end of action listener         
-  }//end of action listener class
+        }
+      }
+      
+    }
+    
+    boolean isPositionValid(int i, int j, String direction, int size){
+      boolean result = true;
+      System.out.println("# " + i + ", " + j + ", " + direction + ", " + size);
+      if (direction.equalsIgnoreCase("N")){
+        System.out.println("NNN " + i + ", " + j + ", " + direction + ", " + size);       
+        if (i - size < -1) {
+          System.out.println("size "+ i + ", " + j + ", " + direction + ", " + size);
+          result =  false;
+          
+        }
+        else {
+          for (int k = i; k > i - size; k--){
+         //   System.out.println("*** " + k + ", " + j + ", " + p1.getShipPosition(k,j));
+            if (p2.getShipPosition(k, j) != 0) result = false;
+          }
+        }
+        
+        
+      } else if (direction.equalsIgnoreCase("S")){
+        if (i + size > 15) result =  false;
+        else {
+          for (int k = i; k < i + size; k ++) {
+            
+            if (p2.getShipPosition(k,j) !=0) result = false;
+          }
+        }
+        
+      } else if (direction.equalsIgnoreCase("E")){
+        if (j + size > 15) result = false;
+        else {
+          for (int k = j; k < j + size; k++){
+            if (p2.getShipPosition(i,k)!= 0 ) result = false;
+          }
+        }
+      }
+        else {
+          if (j - size < -1) result = false;
+          else {
+            for(int k = j; k > j - size; k--) {
+              if (p2.getShipPosition(i,k)!=0) result = false;
+            }
+          }
+          
+        }
+        
+        
+        return result;
+      } 
+      
+    }
+    
+    
+    
+    
+  }//end of whole THING HERE
   
-}//end of WHOLE THING
-
-
+  
+  
+  
