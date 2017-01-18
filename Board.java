@@ -3,23 +3,30 @@ import javax.swing.*;
 
 public class Board {
   
+  //Setting boolean variables accordingly
   static boolean isGameOn = true;
   static boolean hasSetupDonePlayer1 = false;
   static boolean hasSetupDonePlayer2 = false;
   public static boolean isSelected = false;
   
+ //Main Method to run the game 
  public static void main(String[] args) {
   
+  //Creating new frame with appropriate layouts
   JFrame frame = new JFrame("Battleship");
   frame.setSize(1900, 1000);
   frame.setLayout(new GridLayout(1, 3));
   
+  //Creating divider and leftfield objects
   Divider divider = new Divider();
   LeftField leftField = new LeftField(divider);
   
+  //Adding classes 
   frame.add(leftField);
   frame.add(divider);
   frame.add(new RightField());
+   
+  //Setting up game window 
   frame.setLocationRelativeTo(null);
   frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   frame.setVisible(true);
