@@ -20,11 +20,11 @@ public class Board {
   //Creating divider and leftfield objects
   Divider divider = new Divider();
   LeftField leftField = new LeftField(divider);
-  
+  RightField rightField = new RightField(divider);
   //Adding classes 
   frame.add(leftField);
   frame.add(divider);
-  frame.add(new RightField());
+  frame.add(rightField);
    
   //Setting up game window 
   frame.setLocationRelativeTo(null);
