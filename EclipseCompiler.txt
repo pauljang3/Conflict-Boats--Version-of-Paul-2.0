@@ -1,0 +1,1021 @@
+17 Jan 2017 23:53:04 GMT: Log 'EclipseCompiler.txt' opened: 17 Jan 2017 23:53:04 GMT with name C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\EclipseCompiler.txt
+17 Jan 2017 23:53:24 GMT: diagnostics = javax.tools.DiagnosticCollector@dbf322
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1c47510
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java]
+17 Jan 2017 23:53:24 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@12c01c6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+17 Jan 2017 23:53:25 GMT: Compiler call returned
+17 Jan 2017 23:53:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f7199d
+17 Jan 2017 23:53:25 GMT:  Kind = WARNING
+17 Jan 2017 23:53:25 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+17 Jan 2017 23:53:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19acf16
+17 Jan 2017 23:53:25 GMT:  Kind = WARNING
+17 Jan 2017 23:53:25 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+17 Jan 2017 23:53:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1971e49
+17 Jan 2017 23:53:25 GMT:  Kind = WARNING
+17 Jan 2017 23:53:25 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+17 Jan 2017 23:53:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@87d1f9
+17 Jan 2017 23:53:25 GMT:  Kind = WARNING
+17 Jan 2017 23:53:25 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:31:47 GMT: diagnostics = javax.tools.DiagnosticCollector@613d36
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ddd0eb
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java]
+18 Jan 2017 0:31:47 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@9c966e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:31:47 GMT: Compiler call returned
+18 Jan 2017 0:31:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b344e7
+18 Jan 2017 0:31:47 GMT:  Kind = WARNING
+18 Jan 2017 0:31:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:31:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e6e022
+18 Jan 2017 0:31:47 GMT:  Kind = WARNING
+18 Jan 2017 0:31:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:31:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1abf809
+18 Jan 2017 0:31:47 GMT:  Kind = WARNING
+18 Jan 2017 0:31:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:31:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@eba529
+18 Jan 2017 0:31:47 GMT:  Kind = ERROR
+18 Jan 2017 0:31:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 175 ColNo = 85 Msg = 'Syntax error, insert ";" to complete Statement'
+18 Jan 2017 0:31:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e5516f
+18 Jan 2017 0:31:47 GMT:  Kind = WARNING
+18 Jan 2017 0:31:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:31:56 GMT: diagnostics = javax.tools.DiagnosticCollector@351d9d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@410660
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:31:56 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f12ca3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:31:56 GMT: Compiler call returned
+18 Jan 2017 0:31:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12199d3
+18 Jan 2017 0:31:56 GMT:  Kind = WARNING
+18 Jan 2017 0:31:56 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:31:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e0ffc7
+18 Jan 2017 0:31:56 GMT:  Kind = WARNING
+18 Jan 2017 0:31:56 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:31:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@99f88
+18 Jan 2017 0:31:56 GMT:  Kind = WARNING
+18 Jan 2017 0:31:56 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:31:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e35e25
+18 Jan 2017 0:31:56 GMT:  Kind = WARNING
+18 Jan 2017 0:31:56 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:33:17 GMT: diagnostics = javax.tools.DiagnosticCollector@a7f11a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f29243
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java]
+18 Jan 2017 0:33:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@18cda01' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:33:17 GMT: Compiler call returned
+18 Jan 2017 0:33:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3e74c
+18 Jan 2017 0:33:17 GMT:  Kind = WARNING
+18 Jan 2017 0:33:17 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:33:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1065b99
+18 Jan 2017 0:33:17 GMT:  Kind = WARNING
+18 Jan 2017 0:33:17 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:33:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e565d1
+18 Jan 2017 0:33:17 GMT:  Kind = WARNING
+18 Jan 2017 0:33:17 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:33:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@493e62
+18 Jan 2017 0:33:17 GMT:  Kind = WARNING
+18 Jan 2017 0:33:17 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:35:40 GMT: diagnostics = javax.tools.DiagnosticCollector@27a4d9
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b03685
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:35:40 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@157019c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:35:40 GMT: Compiler call returned
+18 Jan 2017 0:35:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1478837
+18 Jan 2017 0:35:40 GMT:  Kind = WARNING
+18 Jan 2017 0:35:40 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:35:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@165665e
+18 Jan 2017 0:35:40 GMT:  Kind = WARNING
+18 Jan 2017 0:35:40 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:35:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a4ab63
+18 Jan 2017 0:35:40 GMT:  Kind = WARNING
+18 Jan 2017 0:35:40 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:35:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@143662
+18 Jan 2017 0:35:40 GMT:  Kind = WARNING
+18 Jan 2017 0:35:40 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:36:54 GMT: diagnostics = javax.tools.DiagnosticCollector@1ffafa4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1856a93
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:36:54 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@12bb50e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:36:55 GMT: Compiler call returned
+18 Jan 2017 0:36:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@122ad2d
+18 Jan 2017 0:36:55 GMT:  Kind = WARNING
+18 Jan 2017 0:36:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:36:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fff7fc
+18 Jan 2017 0:36:55 GMT:  Kind = WARNING
+18 Jan 2017 0:36:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:36:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15e248c
+18 Jan 2017 0:36:55 GMT:  Kind = WARNING
+18 Jan 2017 0:36:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:36:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@114b09f
+18 Jan 2017 0:36:55 GMT:  Kind = WARNING
+18 Jan 2017 0:36:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:39:08 GMT: diagnostics = javax.tools.DiagnosticCollector@451f49
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@16d177e
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:39:08 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@df4a07' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:39:08 GMT: Compiler call returned
+18 Jan 2017 0:39:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cbe161
+18 Jan 2017 0:39:08 GMT:  Kind = WARNING
+18 Jan 2017 0:39:08 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:39:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a71563
+18 Jan 2017 0:39:08 GMT:  Kind = WARNING
+18 Jan 2017 0:39:08 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:39:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d9e9db
+18 Jan 2017 0:39:08 GMT:  Kind = WARNING
+18 Jan 2017 0:39:08 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:39:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13483c2
+18 Jan 2017 0:39:08 GMT:  Kind = WARNING
+18 Jan 2017 0:39:08 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:39:55 GMT: diagnostics = javax.tools.DiagnosticCollector@1dd05d3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@65f649
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:39:55 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1c5226a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:39:55 GMT: Compiler call returned
+18 Jan 2017 0:39:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c12157
+18 Jan 2017 0:39:55 GMT:  Kind = WARNING
+18 Jan 2017 0:39:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:39:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7dafc5
+18 Jan 2017 0:39:55 GMT:  Kind = WARNING
+18 Jan 2017 0:39:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:39:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@307e7e
+18 Jan 2017 0:39:55 GMT:  Kind = WARNING
+18 Jan 2017 0:39:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:39:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19bd65b
+18 Jan 2017 0:39:55 GMT:  Kind = WARNING
+18 Jan 2017 0:39:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:41:16 GMT: diagnostics = javax.tools.DiagnosticCollector@590950
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c52082
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java]
+18 Jan 2017 0:41:16 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1db7ff2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:41:16 GMT: Compiler call returned
+18 Jan 2017 0:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15c3951
+18 Jan 2017 0:41:16 GMT:  Kind = WARNING
+18 Jan 2017 0:41:16 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c74631
+18 Jan 2017 0:41:16 GMT:  Kind = WARNING
+18 Jan 2017 0:41:16 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10ee33a
+18 Jan 2017 0:41:16 GMT:  Kind = WARNING
+18 Jan 2017 0:41:16 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@119b35
+18 Jan 2017 0:41:16 GMT:  Kind = WARNING
+18 Jan 2017 0:41:16 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:42:33 GMT: diagnostics = javax.tools.DiagnosticCollector@2cdea4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@f8b85f
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java]
+18 Jan 2017 0:42:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@168733b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:42:33 GMT: Compiler call returned
+18 Jan 2017 0:42:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ff9875
+18 Jan 2017 0:42:33 GMT:  Kind = WARNING
+18 Jan 2017 0:42:33 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:42:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9c5366
+18 Jan 2017 0:42:33 GMT:  Kind = WARNING
+18 Jan 2017 0:42:33 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:42:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14bed7b
+18 Jan 2017 0:42:33 GMT:  Kind = WARNING
+18 Jan 2017 0:42:33 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:42:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a7af58
+18 Jan 2017 0:42:33 GMT:  Kind = WARNING
+18 Jan 2017 0:42:33 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:49:26 GMT: diagnostics = javax.tools.DiagnosticCollector@dd6612
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1a962ff
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:49:26 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ee442c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:49:26 GMT: Compiler call returned
+18 Jan 2017 0:49:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c4166e
+18 Jan 2017 0:49:26 GMT:  Kind = WARNING
+18 Jan 2017 0:49:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:49:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b9af5
+18 Jan 2017 0:49:26 GMT:  Kind = WARNING
+18 Jan 2017 0:49:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:49:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fdaa86
+18 Jan 2017 0:49:26 GMT:  Kind = WARNING
+18 Jan 2017 0:49:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:49:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@171ae65
+18 Jan 2017 0:49:26 GMT:  Kind = ERROR
+18 Jan 2017 0:49:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 176 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:49:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c3b0c3
+18 Jan 2017 0:49:26 GMT:  Kind = ERROR
+18 Jan 2017 0:49:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 188 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:49:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f5491c
+18 Jan 2017 0:49:26 GMT:  Kind = ERROR
+18 Jan 2017 0:49:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 198 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:49:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4e705e
+18 Jan 2017 0:49:26 GMT:  Kind = ERROR
+18 Jan 2017 0:49:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 209 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:49:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bcfcb4
+18 Jan 2017 0:49:26 GMT:  Kind = WARNING
+18 Jan 2017 0:49:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:50:00 GMT: diagnostics = javax.tools.DiagnosticCollector@1b7d791
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1c0b5bc
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:50:00 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1095be5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:50:00 GMT: Compiler call returned
+18 Jan 2017 0:50:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11eb9c4
+18 Jan 2017 0:50:00 GMT:  Kind = WARNING
+18 Jan 2017 0:50:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:50:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1477869
+18 Jan 2017 0:50:00 GMT:  Kind = WARNING
+18 Jan 2017 0:50:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:50:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c72c48
+18 Jan 2017 0:50:00 GMT:  Kind = WARNING
+18 Jan 2017 0:50:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:50:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@cf3a1
+18 Jan 2017 0:50:00 GMT:  Kind = ERROR
+18 Jan 2017 0:50:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 176 ColNo = 70 Msg = 'ships cannot be resolved or is not a field'
+18 Jan 2017 0:50:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b8ac3d
+18 Jan 2017 0:50:00 GMT:  Kind = ERROR
+18 Jan 2017 0:50:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 188 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:50:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@700233
+18 Jan 2017 0:50:00 GMT:  Kind = ERROR
+18 Jan 2017 0:50:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 198 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:50:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4fd8d9
+18 Jan 2017 0:50:00 GMT:  Kind = ERROR
+18 Jan 2017 0:50:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 209 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:50:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10fb20a
+18 Jan 2017 0:50:00 GMT:  Kind = WARNING
+18 Jan 2017 0:50:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:51:26 GMT: diagnostics = javax.tools.DiagnosticCollector@1507249
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@66eb94
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:51:26 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1639f7e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:51:26 GMT: Compiler call returned
+18 Jan 2017 0:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fd1fbc
+18 Jan 2017 0:51:26 GMT:  Kind = WARNING
+18 Jan 2017 0:51:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11f001d
+18 Jan 2017 0:51:26 GMT:  Kind = WARNING
+18 Jan 2017 0:51:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bece81
+18 Jan 2017 0:51:26 GMT:  Kind = WARNING
+18 Jan 2017 0:51:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d5fc6f
+18 Jan 2017 0:51:26 GMT:  Kind = ERROR
+18 Jan 2017 0:51:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 176 ColNo = 70 Msg = 'ship cannot be resolved or is not a field'
+18 Jan 2017 0:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1421936
+18 Jan 2017 0:51:26 GMT:  Kind = ERROR
+18 Jan 2017 0:51:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 188 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@72e62b
+18 Jan 2017 0:51:26 GMT:  Kind = ERROR
+18 Jan 2017 0:51:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 198 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@157e762
+18 Jan 2017 0:51:26 GMT:  Kind = ERROR
+18 Jan 2017 0:51:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 209 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:51:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e4563
+18 Jan 2017 0:51:26 GMT:  Kind = WARNING
+18 Jan 2017 0:51:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:51:30 GMT: diagnostics = javax.tools.DiagnosticCollector@be4dfe
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b76635
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:51:30 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@7c696c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:51:31 GMT: Compiler call returned
+18 Jan 2017 0:51:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@570287
+18 Jan 2017 0:51:31 GMT:  Kind = WARNING
+18 Jan 2017 0:51:31 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:51:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@154e936
+18 Jan 2017 0:51:31 GMT:  Kind = WARNING
+18 Jan 2017 0:51:31 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:51:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@715347
+18 Jan 2017 0:51:31 GMT:  Kind = WARNING
+18 Jan 2017 0:51:31 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:51:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ea340e
+18 Jan 2017 0:51:31 GMT:  Kind = ERROR
+18 Jan 2017 0:51:31 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 176 ColNo = 70 Msg = 'Ship cannot be resolved or is not a field'
+18 Jan 2017 0:51:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@83506e
+18 Jan 2017 0:51:31 GMT:  Kind = ERROR
+18 Jan 2017 0:51:31 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 188 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:51:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@380c91
+18 Jan 2017 0:51:31 GMT:  Kind = ERROR
+18 Jan 2017 0:51:31 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 198 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:51:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f580fa
+18 Jan 2017 0:51:31 GMT:  Kind = ERROR
+18 Jan 2017 0:51:31 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 209 ColNo = 70 Msg = 'The method setDirection(char) in the type Ship is not applicable for the arguments (java.lang.String)'
+18 Jan 2017 0:51:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@100862e
+18 Jan 2017 0:51:31 GMT:  Kind = WARNING
+18 Jan 2017 0:51:31 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:52:59 GMT: diagnostics = javax.tools.DiagnosticCollector@13aa2cd
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d7f425
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:52:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a82746' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:53:00 GMT: Compiler call returned
+18 Jan 2017 0:53:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b2bda8
+18 Jan 2017 0:53:00 GMT:  Kind = WARNING
+18 Jan 2017 0:53:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:53:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8bf600
+18 Jan 2017 0:53:00 GMT:  Kind = WARNING
+18 Jan 2017 0:53:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:53:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10b1bf3
+18 Jan 2017 0:53:00 GMT:  Kind = WARNING
+18 Jan 2017 0:53:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:53:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10df92a
+18 Jan 2017 0:53:00 GMT:  Kind = ERROR
+18 Jan 2017 0:53:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java LineNo = 20 ColNo = 16 Msg = 'Type mismatch: cannot convert from java.lang.String to char'
+18 Jan 2017 0:53:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d3461e
+18 Jan 2017 0:53:00 GMT:  Kind = WARNING
+18 Jan 2017 0:53:00 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:53:12 GMT: diagnostics = javax.tools.DiagnosticCollector@228074
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@f47d10
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java]
+18 Jan 2017 0:53:12 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@19235a8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:53:12 GMT: Compiler call returned
+18 Jan 2017 0:53:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a11a1c
+18 Jan 2017 0:53:12 GMT:  Kind = WARNING
+18 Jan 2017 0:53:12 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:53:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d0a47d
+18 Jan 2017 0:53:12 GMT:  Kind = WARNING
+18 Jan 2017 0:53:12 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:53:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@83ba35
+18 Jan 2017 0:53:12 GMT:  Kind = WARNING
+18 Jan 2017 0:53:12 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:53:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bac42
+18 Jan 2017 0:53:12 GMT:  Kind = WARNING
+18 Jan 2017 0:53:12 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:53:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13534a5
+18 Jan 2017 0:53:12 GMT:  Kind = ERROR
+18 Jan 2017 0:53:12 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java LineNo = 24 ColNo = 11 Msg = 'Type mismatch: cannot convert from java.lang.String to char'
+18 Jan 2017 0:53:20 GMT: diagnostics = javax.tools.DiagnosticCollector@11d59a5
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@bc5400
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java]
+18 Jan 2017 0:53:20 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@e6791c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:53:20 GMT: Compiler call returned
+18 Jan 2017 0:53:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1778760
+18 Jan 2017 0:53:20 GMT:  Kind = WARNING
+18 Jan 2017 0:53:20 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:53:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c0c338
+18 Jan 2017 0:53:20 GMT:  Kind = WARNING
+18 Jan 2017 0:53:20 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:53:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1772d59
+18 Jan 2017 0:53:20 GMT:  Kind = WARNING
+18 Jan 2017 0:53:20 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:53:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bd7b2d
+18 Jan 2017 0:53:20 GMT:  Kind = WARNING
+18 Jan 2017 0:53:20 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:56:23 GMT: diagnostics = javax.tools.DiagnosticCollector@7c52e1
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@111712a
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java]
+18 Jan 2017 0:56:23 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@7565d1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:56:23 GMT: Compiler call returned
+18 Jan 2017 0:56:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@110d1f3
+18 Jan 2017 0:56:23 GMT:  Kind = WARNING
+18 Jan 2017 0:56:23 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:56:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4ba036
+18 Jan 2017 0:56:23 GMT:  Kind = WARNING
+18 Jan 2017 0:56:23 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:56:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@123abea
+18 Jan 2017 0:56:23 GMT:  Kind = WARNING
+18 Jan 2017 0:56:23 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:56:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@795223
+18 Jan 2017 0:56:23 GMT:  Kind = WARNING
+18 Jan 2017 0:56:23 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:58:09 GMT: diagnostics = javax.tools.DiagnosticCollector@3d2f64
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d027b7
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:58:09 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@50b9cd' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:58:09 GMT: Compiler call returned
+18 Jan 2017 0:58:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e5ca8c
+18 Jan 2017 0:58:09 GMT:  Kind = WARNING
+18 Jan 2017 0:58:09 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:58:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19151a2
+18 Jan 2017 0:58:09 GMT:  Kind = WARNING
+18 Jan 2017 0:58:09 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:58:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1616282
+18 Jan 2017 0:58:09 GMT:  Kind = WARNING
+18 Jan 2017 0:58:09 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:58:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bcf7d3
+18 Jan 2017 0:58:09 GMT:  Kind = ERROR
+18 Jan 2017 0:58:09 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 228 ColNo = 54 Msg = 'Syntax error, insert ")" to complete Expression'
+18 Jan 2017 0:58:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d7ed02
+18 Jan 2017 0:58:09 GMT:  Kind = WARNING
+18 Jan 2017 0:58:09 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:58:16 GMT: diagnostics = javax.tools.DiagnosticCollector@b67af
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1876f98
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:58:16 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@69f6e2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:58:16 GMT: Compiler call returned
+18 Jan 2017 0:58:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1175cb4
+18 Jan 2017 0:58:16 GMT:  Kind = WARNING
+18 Jan 2017 0:58:16 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:58:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e42ff0
+18 Jan 2017 0:58:16 GMT:  Kind = WARNING
+18 Jan 2017 0:58:16 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:58:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@174f863
+18 Jan 2017 0:58:16 GMT:  Kind = WARNING
+18 Jan 2017 0:58:16 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:58:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@880e02
+18 Jan 2017 0:58:16 GMT:  Kind = WARNING
+18 Jan 2017 0:58:16 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:59:44 GMT: diagnostics = javax.tools.DiagnosticCollector@b30671
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f5392f
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 0:59:44 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1fc19b0' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 0:59:44 GMT: Compiler call returned
+18 Jan 2017 0:59:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3da10f
+18 Jan 2017 0:59:44 GMT:  Kind = WARNING
+18 Jan 2017 0:59:44 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:59:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e65811
+18 Jan 2017 0:59:44 GMT:  Kind = WARNING
+18 Jan 2017 0:59:44 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 0:59:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17fe85f
+18 Jan 2017 0:59:44 GMT:  Kind = WARNING
+18 Jan 2017 0:59:44 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 0:59:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3812e1
+18 Jan 2017 0:59:44 GMT:  Kind = WARNING
+18 Jan 2017 0:59:44 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:02:35 GMT: diagnostics = javax.tools.DiagnosticCollector@1eea5c7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@5f87cb
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:02:35 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@165cb33' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:02:35 GMT: Compiler call returned
+18 Jan 2017 1:02:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@163cec2
+18 Jan 2017 1:02:35 GMT:  Kind = WARNING
+18 Jan 2017 1:02:35 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:02:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1431e5
+18 Jan 2017 1:02:35 GMT:  Kind = WARNING
+18 Jan 2017 1:02:35 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:02:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4405c8
+18 Jan 2017 1:02:35 GMT:  Kind = WARNING
+18 Jan 2017 1:02:35 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:02:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10f1d3a
+18 Jan 2017 1:02:35 GMT:  Kind = WARNING
+18 Jan 2017 1:02:35 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:03:21 GMT: diagnostics = javax.tools.DiagnosticCollector@1c56786
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ef87ad
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:03:21 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1f991e5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:03:21 GMT: Compiler call returned
+18 Jan 2017 1:03:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1471e9a
+18 Jan 2017 1:03:21 GMT:  Kind = WARNING
+18 Jan 2017 1:03:21 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:03:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fa6eb0
+18 Jan 2017 1:03:21 GMT:  Kind = WARNING
+18 Jan 2017 1:03:21 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:03:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5ee59f
+18 Jan 2017 1:03:21 GMT:  Kind = WARNING
+18 Jan 2017 1:03:21 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:03:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6706b0
+18 Jan 2017 1:03:21 GMT:  Kind = WARNING
+18 Jan 2017 1:03:21 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:09:23 GMT: diagnostics = javax.tools.DiagnosticCollector@15bc00f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4b5b54
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:09:23 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6f733a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:09:23 GMT: Compiler call returned
+18 Jan 2017 1:09:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7f91d2
+18 Jan 2017 1:09:23 GMT:  Kind = WARNING
+18 Jan 2017 1:09:23 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:09:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@73fd0b
+18 Jan 2017 1:09:23 GMT:  Kind = WARNING
+18 Jan 2017 1:09:23 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:09:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@61fc70
+18 Jan 2017 1:09:23 GMT:  Kind = WARNING
+18 Jan 2017 1:09:23 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:09:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1abf1ab
+18 Jan 2017 1:09:23 GMT:  Kind = WARNING
+18 Jan 2017 1:09:23 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:12:29 GMT: diagnostics = javax.tools.DiagnosticCollector@191e802
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@11ff6a7
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java]
+18 Jan 2017 1:12:29 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@dbe693' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:12:30 GMT: Compiler call returned
+18 Jan 2017 1:12:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10b8e26
+18 Jan 2017 1:12:30 GMT:  Kind = WARNING
+18 Jan 2017 1:12:30 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:12:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19fc9d4
+18 Jan 2017 1:12:30 GMT:  Kind = WARNING
+18 Jan 2017 1:12:30 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:12:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14473a4
+18 Jan 2017 1:12:30 GMT:  Kind = WARNING
+18 Jan 2017 1:12:30 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:12:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4055e
+18 Jan 2017 1:12:30 GMT:  Kind = WARNING
+18 Jan 2017 1:12:30 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:15:08 GMT: diagnostics = javax.tools.DiagnosticCollector@ae879f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@57ac2d
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:15:08 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@31c37a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:15:08 GMT: Compiler call returned
+18 Jan 2017 1:15:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@afa92d
+18 Jan 2017 1:15:08 GMT:  Kind = WARNING
+18 Jan 2017 1:15:08 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:15:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@69946e
+18 Jan 2017 1:15:08 GMT:  Kind = WARNING
+18 Jan 2017 1:15:08 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:15:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@125ccb4
+18 Jan 2017 1:15:08 GMT:  Kind = WARNING
+18 Jan 2017 1:15:08 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:15:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7a63f0
+18 Jan 2017 1:15:08 GMT:  Kind = ERROR
+18 Jan 2017 1:15:08 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 187 ColNo = 52 Msg = 'The operator - is undefined for the argument type(s) java.lang.String, int'
+18 Jan 2017 1:15:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b15553
+18 Jan 2017 1:15:08 GMT:  Kind = ERROR
+18 Jan 2017 1:15:08 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 197 ColNo = 52 Msg = 'The operator - is undefined for the argument type(s) java.lang.String, int'
+18 Jan 2017 1:15:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d76f2f
+18 Jan 2017 1:15:08 GMT:  Kind = ERROR
+18 Jan 2017 1:15:08 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 208 ColNo = 52 Msg = 'The operator - is undefined for the argument type(s) java.lang.String, int'
+18 Jan 2017 1:15:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@68428d
+18 Jan 2017 1:15:08 GMT:  Kind = WARNING
+18 Jan 2017 1:15:08 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:15:59 GMT: diagnostics = javax.tools.DiagnosticCollector@186e15
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@7ebc66
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:15:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@192cae1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:15:59 GMT: Compiler call returned
+18 Jan 2017 1:15:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c1d97d
+18 Jan 2017 1:15:59 GMT:  Kind = WARNING
+18 Jan 2017 1:15:59 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:15:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fb5b18
+18 Jan 2017 1:15:59 GMT:  Kind = WARNING
+18 Jan 2017 1:15:59 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:15:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@868360
+18 Jan 2017 1:15:59 GMT:  Kind = WARNING
+18 Jan 2017 1:15:59 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:15:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1edeb74
+18 Jan 2017 1:15:59 GMT:  Kind = WARNING
+18 Jan 2017 1:15:59 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:17:36 GMT: diagnostics = javax.tools.DiagnosticCollector@9c862d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@73cf57
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:17:36 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ddf1f3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:17:36 GMT: Compiler call returned
+18 Jan 2017 1:17:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@175ba57
+18 Jan 2017 1:17:36 GMT:  Kind = WARNING
+18 Jan 2017 1:17:36 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:17:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ccb546
+18 Jan 2017 1:17:36 GMT:  Kind = WARNING
+18 Jan 2017 1:17:36 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:17:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1de56a8
+18 Jan 2017 1:17:36 GMT:  Kind = WARNING
+18 Jan 2017 1:17:36 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:17:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@53703b
+18 Jan 2017 1:17:36 GMT:  Kind = WARNING
+18 Jan 2017 1:17:36 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:18:51 GMT: diagnostics = javax.tools.DiagnosticCollector@e63d4b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@79b876
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:18:51 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b720f2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:18:51 GMT: Compiler call returned
+18 Jan 2017 1:18:51 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1867316
+18 Jan 2017 1:18:51 GMT:  Kind = WARNING
+18 Jan 2017 1:18:51 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:18:51 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cc6237
+18 Jan 2017 1:18:51 GMT:  Kind = WARNING
+18 Jan 2017 1:18:51 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:18:51 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@114f9ee
+18 Jan 2017 1:18:51 GMT:  Kind = WARNING
+18 Jan 2017 1:18:51 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:18:51 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cf44d5
+18 Jan 2017 1:18:51 GMT:  Kind = WARNING
+18 Jan 2017 1:18:51 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:23:34 GMT: diagnostics = javax.tools.DiagnosticCollector@149e6a8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b61d3b
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:23:34 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a673d4' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:23:34 GMT: Compiler call returned
+18 Jan 2017 1:23:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1999ef8
+18 Jan 2017 1:23:34 GMT:  Kind = WARNING
+18 Jan 2017 1:23:34 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:23:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@93f455
+18 Jan 2017 1:23:34 GMT:  Kind = WARNING
+18 Jan 2017 1:23:34 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:23:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a22f15
+18 Jan 2017 1:23:34 GMT:  Kind = WARNING
+18 Jan 2017 1:23:34 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:23:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18e63de
+18 Jan 2017 1:23:34 GMT:  Kind = WARNING
+18 Jan 2017 1:23:34 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:24:18 GMT: diagnostics = javax.tools.DiagnosticCollector@147c4da
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@de11e
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:24:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@76a4fc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:24:19 GMT: Compiler call returned
+18 Jan 2017 1:24:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1247d69
+18 Jan 2017 1:24:19 GMT:  Kind = WARNING
+18 Jan 2017 1:24:19 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:24:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@111d1e5
+18 Jan 2017 1:24:19 GMT:  Kind = WARNING
+18 Jan 2017 1:24:19 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:24:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18eb52d
+18 Jan 2017 1:24:19 GMT:  Kind = WARNING
+18 Jan 2017 1:24:19 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:24:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c2b1d6
+18 Jan 2017 1:24:19 GMT:  Kind = WARNING
+18 Jan 2017 1:24:19 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:26:11 GMT: diagnostics = javax.tools.DiagnosticCollector@8256cb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@825581
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:26:11 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@7f8757' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:26:12 GMT: Compiler call returned
+18 Jan 2017 1:26:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1431d53
+18 Jan 2017 1:26:12 GMT:  Kind = WARNING
+18 Jan 2017 1:26:12 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:26:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cc5f55
+18 Jan 2017 1:26:12 GMT:  Kind = WARNING
+18 Jan 2017 1:26:12 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:26:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15bfb54
+18 Jan 2017 1:26:12 GMT:  Kind = WARNING
+18 Jan 2017 1:26:12 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:26:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a96d52
+18 Jan 2017 1:26:12 GMT:  Kind = WARNING
+18 Jan 2017 1:26:12 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:26:47 GMT: diagnostics = javax.tools.DiagnosticCollector@64fc5c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@130e0ce
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:26:47 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1355d3f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:26:47 GMT: Compiler call returned
+18 Jan 2017 1:26:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@388a83
+18 Jan 2017 1:26:47 GMT:  Kind = WARNING
+18 Jan 2017 1:26:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:26:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@21462d
+18 Jan 2017 1:26:47 GMT:  Kind = WARNING
+18 Jan 2017 1:26:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:26:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4b53e0
+18 Jan 2017 1:26:47 GMT:  Kind = WARNING
+18 Jan 2017 1:26:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:26:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1859f17
+18 Jan 2017 1:26:47 GMT:  Kind = WARNING
+18 Jan 2017 1:26:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:28:49 GMT: diagnostics = javax.tools.DiagnosticCollector@14cb13
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10ba86d
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:28:49 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@3b325b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:28:49 GMT: Compiler call returned
+18 Jan 2017 1:28:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18e7511
+18 Jan 2017 1:28:49 GMT:  Kind = WARNING
+18 Jan 2017 1:28:49 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:28:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13cbbc1
+18 Jan 2017 1:28:49 GMT:  Kind = WARNING
+18 Jan 2017 1:28:49 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:28:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@581fff
+18 Jan 2017 1:28:49 GMT:  Kind = WARNING
+18 Jan 2017 1:28:49 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:28:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18d0301
+18 Jan 2017 1:28:49 GMT:  Kind = WARNING
+18 Jan 2017 1:28:49 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:30:20 GMT: diagnostics = javax.tools.DiagnosticCollector@1753ad3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1ad3866
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:30:20 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1bde62b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:30:20 GMT: Compiler call returned
+18 Jan 2017 1:30:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@143a7b9
+18 Jan 2017 1:30:20 GMT:  Kind = WARNING
+18 Jan 2017 1:30:20 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:30:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@678e17
+18 Jan 2017 1:30:20 GMT:  Kind = WARNING
+18 Jan 2017 1:30:20 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:30:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a85565
+18 Jan 2017 1:30:20 GMT:  Kind = WARNING
+18 Jan 2017 1:30:20 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:30:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@535c55
+18 Jan 2017 1:30:20 GMT:  Kind = WARNING
+18 Jan 2017 1:30:20 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:32:19 GMT: diagnostics = javax.tools.DiagnosticCollector@1a2f14a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1e534b7
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:32:19 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1951d3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:32:19 GMT: Compiler call returned
+18 Jan 2017 1:32:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4c13e3
+18 Jan 2017 1:32:19 GMT:  Kind = WARNING
+18 Jan 2017 1:32:19 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:32:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16137d3
+18 Jan 2017 1:32:19 GMT:  Kind = WARNING
+18 Jan 2017 1:32:19 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:32:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@160611a
+18 Jan 2017 1:32:19 GMT:  Kind = WARNING
+18 Jan 2017 1:32:19 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:32:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ad1d27
+18 Jan 2017 1:32:19 GMT:  Kind = WARNING
+18 Jan 2017 1:32:19 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:33:45 GMT: diagnostics = javax.tools.DiagnosticCollector@13c7e51
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@59707
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:33:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@aef9b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:33:45 GMT: Compiler call returned
+18 Jan 2017 1:33:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1874096
+18 Jan 2017 1:33:45 GMT:  Kind = WARNING
+18 Jan 2017 1:33:45 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:33:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15ea550
+18 Jan 2017 1:33:45 GMT:  Kind = WARNING
+18 Jan 2017 1:33:45 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:33:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bcb599
+18 Jan 2017 1:33:45 GMT:  Kind = WARNING
+18 Jan 2017 1:33:45 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:33:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@56a5e2
+18 Jan 2017 1:33:45 GMT:  Kind = WARNING
+18 Jan 2017 1:33:45 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:36:08 GMT: diagnostics = javax.tools.DiagnosticCollector@14e2d0
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@141a804
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:36:08 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@113261c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:36:09 GMT: Compiler call returned
+18 Jan 2017 1:36:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8b86db
+18 Jan 2017 1:36:09 GMT:  Kind = WARNING
+18 Jan 2017 1:36:09 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:36:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@669ee8
+18 Jan 2017 1:36:09 GMT:  Kind = WARNING
+18 Jan 2017 1:36:09 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:36:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16d210d
+18 Jan 2017 1:36:09 GMT:  Kind = WARNING
+18 Jan 2017 1:36:09 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:36:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c6e346
+18 Jan 2017 1:36:09 GMT:  Kind = WARNING
+18 Jan 2017 1:36:09 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:37:11 GMT: diagnostics = javax.tools.DiagnosticCollector@a1c667
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1ea233c
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:37:11 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1783c98' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:37:11 GMT: Compiler call returned
+18 Jan 2017 1:37:11 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@82ad20
+18 Jan 2017 1:37:11 GMT:  Kind = WARNING
+18 Jan 2017 1:37:11 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:37:11 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1215c76
+18 Jan 2017 1:37:11 GMT:  Kind = WARNING
+18 Jan 2017 1:37:11 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:37:11 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1aeac1
+18 Jan 2017 1:37:11 GMT:  Kind = WARNING
+18 Jan 2017 1:37:11 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:37:11 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19d7fb2
+18 Jan 2017 1:37:11 GMT:  Kind = WARNING
+18 Jan 2017 1:37:11 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:41:05 GMT: diagnostics = javax.tools.DiagnosticCollector@1cca379
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@cbb774
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:41:05 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1a30a8c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:41:05 GMT: Compiler call returned
+18 Jan 2017 1:41:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1aba09f
+18 Jan 2017 1:41:05 GMT:  Kind = WARNING
+18 Jan 2017 1:41:05 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:41:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13b3524
+18 Jan 2017 1:41:05 GMT:  Kind = WARNING
+18 Jan 2017 1:41:05 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:41:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@cb42ee
+18 Jan 2017 1:41:05 GMT:  Kind = WARNING
+18 Jan 2017 1:41:05 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:41:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@191bed4
+18 Jan 2017 1:41:05 GMT:  Kind = WARNING
+18 Jan 2017 1:41:05 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:43:15 GMT: diagnostics = javax.tools.DiagnosticCollector@15e57e3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@16c0f0
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:43:15 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14a35b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:43:15 GMT: Compiler call returned
+18 Jan 2017 1:43:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e365ba
+18 Jan 2017 1:43:15 GMT:  Kind = WARNING
+18 Jan 2017 1:43:15 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:43:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a4b93b
+18 Jan 2017 1:43:15 GMT:  Kind = WARNING
+18 Jan 2017 1:43:15 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:43:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4c0c51
+18 Jan 2017 1:43:15 GMT:  Kind = WARNING
+18 Jan 2017 1:43:15 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:43:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@efe945
+18 Jan 2017 1:43:15 GMT:  Kind = WARNING
+18 Jan 2017 1:43:15 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:44:06 GMT: diagnostics = javax.tools.DiagnosticCollector@1d00ae1
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@6ed3c3
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:44:06 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@11163e1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:44:06 GMT: Compiler call returned
+18 Jan 2017 1:44:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@99ae3
+18 Jan 2017 1:44:06 GMT:  Kind = WARNING
+18 Jan 2017 1:44:06 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:44:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8fea45
+18 Jan 2017 1:44:06 GMT:  Kind = WARNING
+18 Jan 2017 1:44:06 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:44:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ed7acd
+18 Jan 2017 1:44:06 GMT:  Kind = WARNING
+18 Jan 2017 1:44:06 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:44:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e03490
+18 Jan 2017 1:44:06 GMT:  Kind = WARNING
+18 Jan 2017 1:44:06 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:47:26 GMT: diagnostics = javax.tools.DiagnosticCollector@1c24369
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1d604df
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:47:26 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@383bfc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:47:26 GMT: Compiler call returned
+18 Jan 2017 1:47:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@aab3ae
+18 Jan 2017 1:47:26 GMT:  Kind = WARNING
+18 Jan 2017 1:47:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:47:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13e0c2a
+18 Jan 2017 1:47:26 GMT:  Kind = WARNING
+18 Jan 2017 1:47:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:47:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@119f2c4
+18 Jan 2017 1:47:26 GMT:  Kind = WARNING
+18 Jan 2017 1:47:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:47:26 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d1421
+18 Jan 2017 1:47:26 GMT:  Kind = WARNING
+18 Jan 2017 1:47:26 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:49:30 GMT: diagnostics = javax.tools.DiagnosticCollector@b6a7ec
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1e3cb8f
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:49:30 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@172c528' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:49:30 GMT: Compiler call returned
+18 Jan 2017 1:49:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@100df77
+18 Jan 2017 1:49:30 GMT:  Kind = WARNING
+18 Jan 2017 1:49:30 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:49:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@146aedc
+18 Jan 2017 1:49:30 GMT:  Kind = WARNING
+18 Jan 2017 1:49:30 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:49:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fe21df
+18 Jan 2017 1:49:30 GMT:  Kind = WARNING
+18 Jan 2017 1:49:30 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:49:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1843500
+18 Jan 2017 1:49:30 GMT:  Kind = WARNING
+18 Jan 2017 1:49:30 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:52:54 GMT: diagnostics = javax.tools.DiagnosticCollector@1c07f0d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@17eec84
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:52:54 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6ab4c7' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:52:55 GMT: Compiler call returned
+18 Jan 2017 1:52:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a3882d
+18 Jan 2017 1:52:55 GMT:  Kind = ERROR
+18 Jan 2017 1:52:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 261 ColNo = 3 Msg = 'Syntax error, insert "}" to complete ClassBody'
+18 Jan 2017 1:52:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a48761
+18 Jan 2017 1:52:55 GMT:  Kind = ERROR
+18 Jan 2017 1:52:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 261 ColNo = 3 Msg = 'Syntax error, insert "}" to complete ClassBody'
+18 Jan 2017 1:52:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f2b546
+18 Jan 2017 1:52:55 GMT:  Kind = WARNING
+18 Jan 2017 1:52:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:52:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@166c2f3
+18 Jan 2017 1:52:55 GMT:  Kind = WARNING
+18 Jan 2017 1:52:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:52:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3bd752
+18 Jan 2017 1:52:55 GMT:  Kind = WARNING
+18 Jan 2017 1:52:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:52:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b4c73b
+18 Jan 2017 1:52:55 GMT:  Kind = ERROR
+18 Jan 2017 1:52:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 246 ColNo = 7 Msg = 'Syntax error, insert "}" to complete Block'
+18 Jan 2017 1:52:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19f186e
+18 Jan 2017 1:52:55 GMT:  Kind = ERROR
+18 Jan 2017 1:52:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 246 ColNo = 7 Msg = 'Syntax error, insert "}" to complete Statement'
+18 Jan 2017 1:52:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@633f34
+18 Jan 2017 1:52:55 GMT:  Kind = ERROR
+18 Jan 2017 1:52:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 254 ColNo = 5 Msg = 'Syntax error on token "}", { expected'
+18 Jan 2017 1:52:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@38e46d
+18 Jan 2017 1:52:55 GMT:  Kind = WARNING
+18 Jan 2017 1:52:55 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:53:13 GMT: diagnostics = javax.tools.DiagnosticCollector@75cb17
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@13f715e
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:53:13 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@178836a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:53:13 GMT: Compiler call returned
+18 Jan 2017 1:53:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f7fd77
+18 Jan 2017 1:53:13 GMT:  Kind = WARNING
+18 Jan 2017 1:53:13 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:53:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17f43d6
+18 Jan 2017 1:53:13 GMT:  Kind = WARNING
+18 Jan 2017 1:53:13 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:53:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@47262d
+18 Jan 2017 1:53:13 GMT:  Kind = WARNING
+18 Jan 2017 1:53:13 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:53:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bc74f1
+18 Jan 2017 1:53:13 GMT:  Kind = WARNING
+18 Jan 2017 1:53:13 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:55:20 GMT: diagnostics = javax.tools.DiagnosticCollector@4f766c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@e4dd80
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:55:20 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@7897c5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:55:21 GMT: Compiler call returned
+18 Jan 2017 1:55:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@453bac
+18 Jan 2017 1:55:21 GMT:  Kind = ERROR
+18 Jan 2017 1:55:21 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 268 ColNo = 3 Msg = 'Syntax error, insert "}" to complete ClassBody'
+18 Jan 2017 1:55:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a97172
+18 Jan 2017 1:55:21 GMT:  Kind = WARNING
+18 Jan 2017 1:55:21 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:55:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ba2ae1
+18 Jan 2017 1:55:21 GMT:  Kind = WARNING
+18 Jan 2017 1:55:21 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:55:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1070af1
+18 Jan 2017 1:55:21 GMT:  Kind = WARNING
+18 Jan 2017 1:55:21 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:55:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a6c9e6
+18 Jan 2017 1:55:21 GMT:  Kind = ERROR
+18 Jan 2017 1:55:21 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 255 ColNo = 9 Msg = 'Syntax error on token "else", delete this token'
+18 Jan 2017 1:55:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15f0da1
+18 Jan 2017 1:55:21 GMT:  Kind = WARNING
+18 Jan 2017 1:55:21 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:55:38 GMT: diagnostics = javax.tools.DiagnosticCollector@a72c16
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1cd38d7
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:55:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1a8167b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:55:38 GMT: Compiler call returned
+18 Jan 2017 1:55:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@114740
+18 Jan 2017 1:55:38 GMT:  Kind = ERROR
+18 Jan 2017 1:55:38 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 269 ColNo = 3 Msg = 'Syntax error, insert "}" to complete ClassBody'
+18 Jan 2017 1:55:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15501fc
+18 Jan 2017 1:55:38 GMT:  Kind = WARNING
+18 Jan 2017 1:55:38 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:55:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bde805
+18 Jan 2017 1:55:38 GMT:  Kind = WARNING
+18 Jan 2017 1:55:38 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:55:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4c9589
+18 Jan 2017 1:55:38 GMT:  Kind = WARNING
+18 Jan 2017 1:55:38 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:55:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b1e107
+18 Jan 2017 1:55:38 GMT:  Kind = ERROR
+18 Jan 2017 1:55:38 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 256 ColNo = 9 Msg = 'Syntax error on token "else", delete this token'
+18 Jan 2017 1:55:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15c584c
+18 Jan 2017 1:55:38 GMT:  Kind = WARNING
+18 Jan 2017 1:55:38 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:55:52 GMT: diagnostics = javax.tools.DiagnosticCollector@c1d965
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@125b6b1
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:55:52 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@edf562' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:55:52 GMT: Compiler call returned
+18 Jan 2017 1:55:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@135e415
+18 Jan 2017 1:55:52 GMT:  Kind = ERROR
+18 Jan 2017 1:55:52 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 269 ColNo = 3 Msg = 'Syntax error, insert "}" to complete ClassBody'
+18 Jan 2017 1:55:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d68567
+18 Jan 2017 1:55:52 GMT:  Kind = WARNING
+18 Jan 2017 1:55:52 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:55:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e36a9
+18 Jan 2017 1:55:52 GMT:  Kind = WARNING
+18 Jan 2017 1:55:52 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:55:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bd9095
+18 Jan 2017 1:55:52 GMT:  Kind = WARNING
+18 Jan 2017 1:55:52 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:55:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fcdd3b
+18 Jan 2017 1:55:52 GMT:  Kind = ERROR
+18 Jan 2017 1:55:52 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 256 ColNo = 9 Msg = 'Syntax error on token "else", delete this token'
+18 Jan 2017 1:55:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ae839e
+18 Jan 2017 1:55:52 GMT:  Kind = WARNING
+18 Jan 2017 1:55:52 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:56:27 GMT: diagnostics = javax.tools.DiagnosticCollector@19e8c96
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c13e8a
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:56:27 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@855ebf' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:56:27 GMT: Compiler call returned
+18 Jan 2017 1:56:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4bbbfb
+18 Jan 2017 1:56:27 GMT:  Kind = WARNING
+18 Jan 2017 1:56:27 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:56:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11278ec
+18 Jan 2017 1:56:27 GMT:  Kind = WARNING
+18 Jan 2017 1:56:27 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:56:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d16985
+18 Jan 2017 1:56:27 GMT:  Kind = WARNING
+18 Jan 2017 1:56:27 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:56:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@95bc91
+18 Jan 2017 1:56:27 GMT:  Kind = WARNING
+18 Jan 2017 1:56:27 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:56:47 GMT: diagnostics = javax.tools.DiagnosticCollector@8e5827
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@96b7a9
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:56:47 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@16819b8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:56:47 GMT: Compiler call returned
+18 Jan 2017 1:56:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ab7e1d
+18 Jan 2017 1:56:47 GMT:  Kind = WARNING
+18 Jan 2017 1:56:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:56:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19e3fd6
+18 Jan 2017 1:56:47 GMT:  Kind = WARNING
+18 Jan 2017 1:56:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:56:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@102f565
+18 Jan 2017 1:56:47 GMT:  Kind = WARNING
+18 Jan 2017 1:56:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:56:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6b08d8
+18 Jan 2017 1:56:47 GMT:  Kind = WARNING
+18 Jan 2017 1:56:47 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:57:24 GMT: diagnostics = javax.tools.DiagnosticCollector@25d66b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@566c6b
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:57:24 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@da1239' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:57:24 GMT: Compiler call returned
+18 Jan 2017 1:57:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1351ee2
+18 Jan 2017 1:57:24 GMT:  Kind = WARNING
+18 Jan 2017 1:57:24 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:57:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f32b6b
+18 Jan 2017 1:57:24 GMT:  Kind = WARNING
+18 Jan 2017 1:57:24 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:57:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@150411a
+18 Jan 2017 1:57:24 GMT:  Kind = WARNING
+18 Jan 2017 1:57:24 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:57:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c3fee5
+18 Jan 2017 1:57:24 GMT:  Kind = WARNING
+18 Jan 2017 1:57:24 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:59:36 GMT: diagnostics = javax.tools.DiagnosticCollector@1cc555a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4fd69c
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 1:59:36 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b1188c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 1:59:36 GMT: Compiler call returned
+18 Jan 2017 1:59:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@cf7cee
+18 Jan 2017 1:59:36 GMT:  Kind = WARNING
+18 Jan 2017 1:59:36 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:59:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11e5644
+18 Jan 2017 1:59:36 GMT:  Kind = WARNING
+18 Jan 2017 1:59:36 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 1:59:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1881b2a
+18 Jan 2017 1:59:36 GMT:  Kind = WARNING
+18 Jan 2017 1:59:36 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 1:59:36 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d9e7f2
+18 Jan 2017 1:59:36 GMT:  Kind = WARNING
+18 Jan 2017 1:59:36 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 2:00:59 GMT: diagnostics = javax.tools.DiagnosticCollector@19dd3d8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@fd7ea0
+fileObjects = [C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Board.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Ship.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Player.java, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java]
+18 Jan 2017 2:00:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@b1b5fc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master;C:\Users\Paul Jang\Downloads\drjava-beta-20160913-225446.exe]
+18 Jan 2017 2:00:59 GMT: Compiler call returned
+18 Jan 2017 2:00:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d71cb0
+18 Jan 2017 2:00:59 GMT:  Kind = WARNING
+18 Jan 2017 2:00:59 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\RightField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class RightField does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 2:00:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b8392a
+18 Jan 2017 2:00:59 GMT:  Kind = WARNING
+18 Jan 2017 2:00:59 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 6 ColNo = 14 Msg = 'The serializable class Divider does not declare a static final serialVersionUID field of type long'
+18 Jan 2017 2:00:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2551e0
+18 Jan 2017 2:00:59 GMT:  Kind = WARNING
+18 Jan 2017 2:00:59 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\Divider.java LineNo = 17 ColNo = 15 Msg = 'The value of the local variable Water is not used'
+18 Jan 2017 2:00:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ef7a13
+18 Jan 2017 2:00:59 GMT:  Kind = WARNING
+18 Jan 2017 2:00:59 GMT: Name = C:\Users\Paul Jang\Downloads\Conflict-Boats--Version-of-Paul-2.0-master (1)\Conflict-Boats--Version-of-Paul-2.0-master\LeftField.java LineNo = 6 ColNo = 14 Msg = 'The serializable class LeftField does not declare a static final serialVersionUID field of type long'

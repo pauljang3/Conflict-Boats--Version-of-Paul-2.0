@@ -31,7 +31,7 @@ public class Divider extends JPanel {
     
     JPanel middlePanel = new JPanel();
     middlePanel.setLayout(new GridLayout(6 , 1));
-    //ActionListener b5ttonListen = new ActionListener();
+    //ActionListener buttonListen = new ActionListener();
     for (int i = 5; i >= 0; i--){
       jb[i] = new JButton();
       jb[i].setName((i+1)+"");
@@ -44,8 +44,6 @@ public class Divider extends JPanel {
         
         public void actionPerformed(ActionEvent event) {
           
-          
-          System.out.println(((JButton)event.getSource()).getName());
           size[0] = ((JButton)event.getSource()).getName();
           
         }
@@ -57,7 +55,7 @@ public class Divider extends JPanel {
     jb[4].setIcon(destroyer);
     jb[3].setIcon(sub);
     jb[2].setIcon(patrol);
-//    jb[1].setIcon();
+    //jb[1].setIcon();
     jb[0].setIcon(done);
     
     add(middlePanel, BorderLayout.CENTER);

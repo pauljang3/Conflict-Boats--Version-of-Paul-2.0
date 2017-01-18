@@ -33,7 +33,7 @@ public class LeftField extends JPanel{
         jb[i][j].setIcon(Water);
         jb[i][j].addActionListener(buttonListen);
         middlePanel.add(jb[i][j]);
-        jb[i][j].setEnabled(false);
+        
       }
     }
     

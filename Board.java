@@ -7,6 +7,7 @@ public class Board {
   static boolean hasSetupDonePlayer1 = false;
   static boolean hasSetupDonePlayer2 = false;
   public static boolean isSelected = false;
+  
  public static void main(String[] args) {
   
   JFrame frame = new JFrame("Battleship");
@@ -24,16 +25,16 @@ public class Board {
   frame.setVisible(true);
   frame.setExtendedState(frame.getExtendedState() | JFrame.MAXIMIZED_BOTH);
   
-  while(isGameOn){
-    JOptionPane.showMessageDialog (null, "Welcome to Conflict Boats!");
-    JOptionPane.showMessageDialog (null, "Player 1 please choose the placement of you boats and Player 2 please look away.");
+ // while(isGameOn){
+   // JOptionPane.showMessageDialog (null, "Welcome to Conflict Boats!");
+  // JOptionPane.showMessageDialog (null, "Player 1 please choose the placement of you boats and Player 2 please look away.");
     
     
     
 
     
-   isGameOn = false;
-  }
+  // isGameOn = false;
+ // }
 
  }
 

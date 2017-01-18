@@ -1,6 +1,6 @@
 public class Ship {
  int size;
- String direction;
+ char direction;
  boolean isDestroyed;
  int xpos;
  int ypos;
@@ -16,11 +16,11 @@ public class Ship {
    return size;
  }
  
- public void setDirection (String c){
+ public void setDirection (char c){
    direction = c;
  }
  
- public String getDirection () {
+ public char getDirection () {
    return direction;
  }
  

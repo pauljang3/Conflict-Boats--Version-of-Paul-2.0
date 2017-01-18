@@ -3,7 +3,7 @@ public class Player {
   boolean isWin;
   int money;
   int[][] shipPosition = new int[15][15];
-  Ship[] ships = new Ship[6];
+  Ship[] ships = new Ship[5];
  
      
   public Player () {
@@ -12,7 +12,6 @@ public class Player {
     ships[2] = new Ship();
     ships[3] = new Ship();
     ships[4] = new Ship();
-    ships[5] = new Ship();
     
   }
  
