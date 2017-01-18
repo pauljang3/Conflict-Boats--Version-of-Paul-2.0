@@ -105,6 +105,7 @@ public class RightField extends JPanel{
         JOptionPane.showMessageDialog (null, "Third action listener");
       }
     });
+    
                     
     //CLEAR Panel
     cashPanel.setLayout(new GridLayout(2,1));
@@ -116,7 +117,7 @@ public class RightField extends JPanel{
     
     done.addActionListener(new ActionListener (){     
       public void actionPerformed(ActionEvent e){
-        JOptionPane.showMessageDialog (null, "I want to clear everything");
+        JOptionPane.showMessageDialog (null, "Clearing board..");
         
         //For loop that sets image to each button 
         for (int i = 0; i < 15; i++){
@@ -144,8 +145,11 @@ public class RightField extends JPanel{
                       
             String Direction = null;
             
+            //Opening windows message dialog to choose a direction
             Direction = JOptionPane.showInputDialog (null, "Please choose a direction");
-            boolean isValid = false;   
+            boolean isValid = false; //Setting isValid variable to false 
+            
+            //While loop to check if ship placement is valid
             while (!isValid){
               
               //If user chooses North Direction
@@ -158,6 +162,8 @@ public class RightField extends JPanel{
               }
              
             } 
+            
+            //If ship placement exits the board dimensions
             if (!isPositionValid(i, j, Direction.substring(0,1), Integer.parseInt(divider.size[0]))){
               JOptionPane.showMessageDialog(null, "Invalid Position! Please try again!");
               return;
@@ -171,7 +177,7 @@ public class RightField extends JPanel{
                 p2.getShips()[Integer.parseInt(divider.size[0])-1].setSize(Integer.parseInt(divider.size[0]));
                 p2.setShipPosition(i-a, j, Integer.parseInt(divider.size[0]));
                 p2.getShips()[Integer.parseInt(divider.size[0])-1].setDirection("N");
-          //      System.out.println((i-a) + ", " + j + ", " + p2.getShipPosition(i-a, j));
+                //System.out.println((i-a) + ", " + j + ", " + p2.getShipPosition(i-a, j));
                 
               }//end of for loop
             }
@@ -207,22 +213,21 @@ public class RightField extends JPanel{
                 p2.getShips()[Integer.parseInt(divider.size[0])-1].setDirection("S");
               }
             }
-            System.out.println("###### " + divider.size[0]);
-            
+            System.out.println("###### " + divider.size[0]); //Displaying ship size to console            
           }          
         }
       }      
     }
     
-    /**
-      * isPositionValid
-      * Checking if placement of ship is valid
-      * @param  int i  x-value of placement coordinates
-      * @param  int j  y-value of placement coordinates
-      * @param  String direction  User-entered letter for direction of ship
-      * @param  int size  Number of squares ship occupies in board
-      * @return true or false (valid or invalid)
-      */
+  /**
+    * isPositionValid
+    * Checking if placement of ship is valid
+    * @param  int i  x-value of placement coordinates
+    * @param  int j  y-value of placement coordinates
+    * @param  String direction  User-entered letter for direction of ship
+    * @param  int size  Number of squares ship occupied in board
+    * @return true or false (valid or invalid)
+    */
     boolean isPositionValid(int i, int j, String direction, int size){
       boolean result = true; //Setting result to true first
       System.out.println("# " + i + ", " + j + ", " + direction + ", " + size);
