@@ -86,7 +86,7 @@ public class Board {
       }
     };
     
-     ActionListener alInstruction = new ActionListener(){
+    ActionListener alInstruction = new ActionListener(){
       public void actionPerformed(ActionEvent f){
         if(!(f.getSource() instanceof JButton)){
           return; 
@@ -129,13 +129,32 @@ public class Board {
     creditsButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
     creditsButton.addActionListener(alCredits);
     mainMenu.add(creditsButton);
+    
+    JLabel jlabel1 = new JLabel("CREDITS");
+    JLabel space = new JLabel("");
+    JLabel destroyer = new JLabel("http://www.wallhogs.com/in_stock/category/639?page=2");
+    JLabel aircraftcarrier = new JLabel("https://commons.wikimedia.org/wiki/File:Flugzeugtr%C3%A4ger_Silhouette.svg");
+    JLabel submarine = new JLabel("http://worldartsme.com/submarine-silhouette-clipart.html#gal_post_108271_submarine-silhouette-clipart-1.jpg");
+    JLabel patrolboat = new JLabel("https://it.pinterest.com/pin/288934132325552202/");
+    JLabel raft = new JLabel("http://www.supercoloring.com/silhouettes/rafting");
+    
 
+    jlabel1.setFont(new Font("Verdana",1,50));
+    destroyer.setFont(new Font("Verdana",1,25));
+    aircraftcarrier.setFont(new Font("Verdana",1,25));
+    submarine.setFont(new Font("Verdana",1,25));
+    patrolboat.setFont(new Font("Verdana",1,25));
+    raft.setFont(new Font("Verdana",1,25));
+   
+    credits.add(jlabel1);
+    credits.add(destroyer);
+    credits.add(aircraftcarrier);
+    credits.add(submarine);
+    credits.add(patrolboat);
+    credits.add(raft);
+    
+    
+    
+    
   }
-  
-  
 }
-
-
-
-
-
