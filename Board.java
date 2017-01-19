@@ -26,9 +26,7 @@ public class Board {
     final RightField rightField = new RightField(divider);
     
     final JPanel credits = new JPanel ();
-    
-    
-    
+    final JPanel instructions = new JPanel ();
     
     
     //Setting up game window 
@@ -88,6 +86,29 @@ public class Board {
       }
     };
     
+     ActionListener alInstruction = new ActionListener(){
+      public void actionPerformed(ActionEvent f){
+        if(!(f.getSource() instanceof JButton)){
+          return; 
+        }
+        
+        JButton button = (JButton) f.getSource();
+        
+        
+        if(button.getText().equalsIgnoreCase("Instructions")){
+          //Button got pressed 
+          //Adding classes 
+          frame.remove(mainMenu);
+          frame.add(instructions);
+          frame.validate();
+          
+        }
+        else if(button.getText().equalsIgnoreCase("quit")){
+          System.exit(0); 
+        }
+      }
+    };
+    
     
     JButton start = new JButton ("Start");
     start.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
@@ -99,10 +120,10 @@ public class Board {
     quit.addActionListener(al);
     mainMenu.add(quit);
     
-    JButton instructions = new JButton("Instructions");
-    instructions.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
-    instructions.addActionListener(al);
-    mainMenu.add(instructions);
+    JButton instructionButtons = new JButton("Instructions");
+    instructionButtons.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
+    instructionButtons.addActionListener(alInstruction);
+    mainMenu.add(instructionButtons);
     
     JButton creditsButton= new JButton ("Credits");
     creditsButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
@@ -120,4 +141,6 @@ public class Board {
   
   
 }
+
+
 
