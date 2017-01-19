@@ -9,7 +9,7 @@ public class RightField extends JPanel{
   int cash = 4000;
   Divider divider;
   public RightField(Divider d){
-    Divider = d;
+    divider = d;
     begin();
   }
   
