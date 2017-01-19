@@ -7,17 +7,19 @@ public class RightField extends JPanel{
   
   JButton[][] jb = new JButton[15][15];
   int cash = 4000;
-  Divider divider;
-  public RightField(Divider d){
-    divider = d;
+  LeftField lf; 
+  public RightField(LeftField lf){
+    this.lf = lf;
     begin();
   }
+  
+
   
   
   
   private void begin() {
     setLayout(new BorderLayout());
-    JLabel title = new JLabel("                                               Player 2");
+    JLabel title = new JLabel("                                                    Computer");
     add(title, BorderLayout.NORTH);
     
     JPanel middlePanel = new JPanel();
@@ -128,22 +130,22 @@ public class RightField extends JPanel{
       reference = new int [15][15];
       
       
-      //***SAMPLE BOAT PLACEMENT***
+      //***RANDOM BOAT PLACEMENT***
       for(int a=0;a<15;a++){  
         for(int b=0;b<15;b++){ 
           reference[a][b]=0;
         } 
        }
       
-      for (int i=0;i<15;i++){
-      int a = (int) (Math.random()*15);
-       int b = (int) (Math.random()*15);
-          reference[a][b]=-1;    
+      for (int i=0;i<100;i++){
+        int a = (int) (Math.random()*15);
+        int b = (int) (Math.random()*15);
+        reference[a][b]=-1; 
       }
              
       
-      
     }
+    
     
     
     //Test case for boat placement
@@ -164,16 +166,44 @@ public class RightField extends JPanel{
             if (reference [i][j] ==-1){
             jb[i][j].setEnabled(true);
             ImageIcon xImage=new ImageIcon (this.getClass().getResource("x.jpg"));
+            ImageIcon missImage=new ImageIcon (this.getClass().getResource("waterMiss.jpg"));
             jb[i][j].setIcon(xImage);
+            
+            int a = (int) (Math.random()*15);
+            int b = (int) (Math.random()*15);
+            
+            if (lf.referenceBoard[a][b] == -1){
+            lf.jb[a][b].setIcon(missImage);
+            }
+            
+            if (lf.referenceBoard[a][b] == 0){
+            lf.jb[a][b].setIcon(xImage);
+            }
+            
+            
+            
             }
             
             if(reference[i][j] ==0){
              jb[i][j].setEnabled(true);
+            ImageIcon xImage=new ImageIcon (this.getClass().getResource("x.jpg"));
             ImageIcon missImage=new ImageIcon (this.getClass().getResource("waterMiss.jpg"));
-            jb[i][j].setIcon(missImage);
-              
-              
+            jb[i][j].setIcon(missImage);   
+                 
+            
+            int a = (int) (Math.random()*15);
+            int b = (int) (Math.random()*15);
+            
+            if (lf.referenceBoard[a][b] == -1){
+            lf.jb[a][b].setIcon(missImage);
             }
+            
+            if (lf.referenceBoard[a][b] == 0){
+            lf.jb[a][b].setIcon(xImage);
+            }
+            }
+            
+            
             
              
             
