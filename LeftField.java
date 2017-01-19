@@ -19,6 +19,8 @@ public class LeftField extends JPanel{
   
   
   private void begin() {
+    
+              
     //Sets BorderLayout for LeftField 
     setLayout(new BorderLayout());
     
@@ -258,14 +260,18 @@ public class LeftField extends JPanel{
                 //Sets boat image
                 ImageIcon boat=new ImageIcon (this.getClass().getResource("boatImage.jpg"));
                 jb[i+a][j].setIcon(boat); 
-                
+                the this .g
                 //Saves placed ship coordinates in a reference array
                 referenceBoard[i+a][j]=0;
                 
                 
                 p1.getShips()[Integer.parseInt(divider.size[0])-1].setSize(Integer.parseInt(divider.size[0]));
                 p1.setShipPosition(i+a, j, Integer.parseInt(divider.size[0]));         
-                p1.getShips()[Integer.parseInt(divider.size[0])-1].setDirection("S");
+                p1.getShips()[Integer.parseInt(divider.size[0])-1].set
+                  
+                  
+                  
+                  xDirection("S");
               }
             }//end of South direction choice
             
@@ -332,7 +338,6 @@ public class LeftField extends JPanel{
     
   }//end of action listener for water buttons
   
-  
-  
+
   
 }//end of whole LeftField class
