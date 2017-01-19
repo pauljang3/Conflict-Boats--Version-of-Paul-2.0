@@ -7,7 +7,9 @@ public class RightField extends JPanel{
   
   JButton[][] jb = new JButton[15][15];
   int cash = 4000;
-  public RightField(){
+  Divider divider;
+  public RightField(Divider d){
+    Divider = d;
     begin();
   }
   
