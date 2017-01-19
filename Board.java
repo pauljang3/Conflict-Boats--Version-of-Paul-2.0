@@ -1,7 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
-import java.io.*;
 
 public class Board {
   
@@ -32,7 +31,7 @@ public class Board {
     //Setting up game window 
     frame.setLocationRelativeTo(null);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.setVisible(true);
+    
     frame.setExtendedState(frame.getExtendedState() | JFrame.MAXIMIZED_BOTH);
     
     final JPanel mainMenu = new JPanel();    
@@ -77,6 +76,8 @@ public class Board {
           //Adding classes 
           frame.remove(mainMenu);
           frame.add(credits);
+          frame.setVisible(false);
+          frame.setVisible(true);
           frame.validate();
           
         }
@@ -101,6 +102,57 @@ public class Board {
           frame.remove(mainMenu);
           frame.add(instructions);
           frame.validate();
+          frame.setVisible(false);
+          frame.setVisible(true);
+          
+        }
+        else if(button.getText().equalsIgnoreCase("quit")){
+          System.exit(0); 
+        }
+      }
+    };
+    
+    ActionListener backInstructions = new ActionListener(){
+      public void actionPerformed(ActionEvent g){
+        if(!(g.getSource() instanceof JButton)){
+          return; 
+        }
+        
+        JButton button = (JButton) g.getSource();
+        
+        
+        if(button.getText().equalsIgnoreCase("Back")){
+          //Button got pressed 
+          //Adding classes         
+          frame.remove(instructions);
+          frame.add(mainMenu);
+          frame.validate();
+          frame.setVisible(false);
+          frame.setVisible(true);
+        }
+        else if(button.getText().equalsIgnoreCase("quit")){
+          System.exit(0); 
+        }
+      }
+    };
+    
+    ActionListener backCredits = new ActionListener(){
+      public void actionPerformed(ActionEvent h){
+        if(!(h.getSource() instanceof JButton)){
+          return; 
+        }
+        
+        JButton button = (JButton) h.getSource();
+        
+        
+        if(button.getText().equalsIgnoreCase("Back")){
+          //Button got pressed 
+          //Adding classes         
+          frame.remove(credits);
+          frame.add(mainMenu);
+          frame.validate();
+          frame.setVisible(false);
+          frame.setVisible(true);
           
         }
         else if(button.getText().equalsIgnoreCase("quit")){
@@ -114,8 +166,7 @@ public class Board {
     start.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
     start.addActionListener(al);
     mainMenu.add(start);
-    
-    
+     
     JButton instructionButton = new JButton("Instructions");
     instructionButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
     instructionButton.addActionListener(alInstruction);
@@ -125,6 +176,14 @@ public class Board {
     creditsButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
     creditsButton.addActionListener(alCredits);
     mainMenu.add(creditsButton);
+    
+    JButton back1 = new JButton("Back");
+    JButton back2 = new JButton("Back");
+    back1.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
+    back2.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
+    back1.addActionListener(backInstructions);
+    back2.addActionListener(backCredits);
+    instructions.add(back1);
     
     JButton quit = new JButton("Quit");
     quit.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
@@ -141,6 +200,7 @@ public class Board {
     JLabel patrolboat = new JLabel("https://it.pinterest.com/pin/288934132325552202/");
     JLabel raft = new JLabel("http://www.supercoloring.com/silhouettes/rafting");
     JLabel waterLink = new JLabel ("https://www.johnweiss.ca/single-post/2016/10/08/The-Water-Element");
+    JLabel x = new JLabel ("http://www.freeiconspng.com/png-images/x-png");
     JLabel name1 = new JLabel("Wisley Chen");
     JLabel name2 = new JLabel("Paul Jang");
     JLabel name3 = new JLabel("Leon Wang");
@@ -154,6 +214,7 @@ public class Board {
     patrolboat.setFont(new Font("Verdana",1,20));
     raft.setFont(new Font("Verdana",1,20));
     waterLink.setFont(new Font("Verdana",1,20));
+    x.setFont(new Font("Verdana",1,20));
     name1.setFont(new Font("Verdana",1,20));
     name2.setFont(new Font("Verdana",1,20));
     name3.setFont(new Font("Verdana",1,20));
@@ -167,21 +228,20 @@ public class Board {
     credits.add(patrolboat);
     credits.add(raft);
     credits.add(waterLink);
+    credits.add(x);
     credits.add(space);
     credits.add(jlabel3);
     credits.add(name1);
     credits.add(name2);
     credits.add(name3);
-    
+    credits.add(Box.createRigidArea(new Dimension(0,400)));
+    credits.add(back2);
     name1.setForeground (Color.red);
     name2.setForeground (Color.green);
     name3.setForeground (Color.magenta);
-    
+    frame.setVisible(true);
     
     credits.setLayout(new BoxLayout(credits, BoxLayout.Y_AXIS));
-    
-    
-    
-    
+  
   }
 }
