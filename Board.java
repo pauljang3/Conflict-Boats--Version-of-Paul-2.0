@@ -1,6 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
+import java.io.*;
 
 public class Board {
   
@@ -13,14 +14,20 @@ public class Board {
   //Main Method to run the game 
   public static void main(String[] args) {
     
+    
     //Creating new frame with appropriate layouts
-   final JFrame frame = new JFrame("Battleship");
+    final JFrame frame = new JFrame("Battleship");
     frame.setSize(1900, 1000);
     frame.setLayout(new GridLayout(1, 3));
     
     //Creating divider and leftfield objects
-   final Divider divider = new Divider();
+    final Divider divider = new Divider();
     final LeftField leftField = new LeftField(divider);
+    final RightField rightField = new RightField(divider);
+    
+    final JPanel credits = new JPanel ();
+    
+    
     
     
     
@@ -30,7 +37,7 @@ public class Board {
     frame.setVisible(true);
     frame.setExtendedState(frame.getExtendedState() | JFrame.MAXIMIZED_BOTH);
     
-   final JPanel mainMenu = new JPanel();    
+    final JPanel mainMenu = new JPanel();    
     frame.add(mainMenu);
     
     ActionListener al = new ActionListener(){
@@ -48,14 +55,39 @@ public class Board {
           frame.remove(mainMenu);
           frame.add(leftField);
           frame.add(divider);
-          frame.add(new RightField());
+          frame.add(rightField);
           frame.validate();
           
         }else if(button.getText().equalsIgnoreCase("quit")){
-         System.exit(0); 
+          System.exit(0); 
+        }
+      }
+      
+    };
+    
+    ActionListener alCredits = new ActionListener(){
+      public void actionPerformed(ActionEvent d){
+        if(!(d.getSource() instanceof JButton)){
+          return; 
+        }
+        
+        JButton button = (JButton) d.getSource();
+        
+        
+        if(button.getText().equalsIgnoreCase("Credits")){
+          //Button got pressed 
+          //Adding classes 
+          frame.remove(mainMenu);
+          frame.add(credits);
+          frame.validate();
+          
+        }
+        else if(button.getText().equalsIgnoreCase("quit")){
+          System.exit(0); 
         }
       }
     };
+    
     
     JButton start = new JButton ("Start");
     start.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
@@ -72,17 +104,20 @@ public class Board {
     instructions.addActionListener(al);
     mainMenu.add(instructions);
     
-    // while(isGameOn){
-    // JOptionPane.showMessageDialog (null, "Welcome to Conflict Boats!");
-    // JOptionPane.showMessageDialog (null, "Player 1 please choose the placement of you boats and Player 2 please look away.");
+    JButton creditsButton= new JButton ("Credits");
+    creditsButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
+    creditsButton.addActionListener(alCredits);
+    mainMenu.add(creditsButton);
     
     
     
     
     
-    // isGameOn = false;
-    // }
+    
+    
     
   }
   
+  
 }
+
