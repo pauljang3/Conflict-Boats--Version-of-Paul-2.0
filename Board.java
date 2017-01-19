@@ -111,47 +111,74 @@ public class Board {
     
     
     JButton start = new JButton ("Start");
-    start.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
+    start.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
     start.addActionListener(al);
     mainMenu.add(start);
     
-    JButton quit = new JButton("Quit");
-    quit.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
-    quit.addActionListener(al);
-    mainMenu.add(quit);
     
     JButton instructionButton = new JButton("Instructions");
-    instructionButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
+    instructionButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
     instructionButton.addActionListener(alInstruction);
     mainMenu.add(instructionButton);
     
     JButton creditsButton= new JButton ("Credits");
-    creditsButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
+    creditsButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
     creditsButton.addActionListener(alCredits);
     mainMenu.add(creditsButton);
     
+    JButton quit = new JButton("Quit");
+    quit.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
+    quit.addActionListener(al);
+    mainMenu.add(quit);
+    
     JLabel jlabel1 = new JLabel("CREDITS");
-    JLabel space = new JLabel("");
+    JLabel jlabel2 = new JLabel("Images:");
+    JLabel jlabel3 = new JLabel("Developers:");
+    JLabel space = new JLabel (" ");
     JLabel destroyer = new JLabel("http://www.wallhogs.com/in_stock/category/639?page=2");
     JLabel aircraftcarrier = new JLabel("https://commons.wikimedia.org/wiki/File:Flugzeugtr%C3%A4ger_Silhouette.svg");
     JLabel submarine = new JLabel("http://worldartsme.com/submarine-silhouette-clipart.html#gal_post_108271_submarine-silhouette-clipart-1.jpg");
     JLabel patrolboat = new JLabel("https://it.pinterest.com/pin/288934132325552202/");
     JLabel raft = new JLabel("http://www.supercoloring.com/silhouettes/rafting");
+    JLabel waterLink = new JLabel ("https://www.johnweiss.ca/single-post/2016/10/08/The-Water-Element");
+    JLabel name1 = new JLabel("Wisley Chen");
+    JLabel name2 = new JLabel("Paul Jang");
+    JLabel name3 = new JLabel("Leon Wang");
     
-
     jlabel1.setFont(new Font("Verdana",1,50));
-    destroyer.setFont(new Font("Verdana",1,25));
-    aircraftcarrier.setFont(new Font("Verdana",1,25));
-    submarine.setFont(new Font("Verdana",1,25));
-    patrolboat.setFont(new Font("Verdana",1,25));
-    raft.setFont(new Font("Verdana",1,25));
-   
+    jlabel2.setFont(new Font("Verdana",1,25));
+    jlabel3.setFont(new Font("Verdana",1,25));
+    destroyer.setFont(new Font("Verdana",1,20));
+    aircraftcarrier.setFont(new Font("Verdana",1,20));
+    submarine.setFont(new Font("Verdana",1,20));
+    patrolboat.setFont(new Font("Verdana",1,20));
+    raft.setFont(new Font("Verdana",1,20));
+    waterLink.setFont(new Font("Verdana",1,20));
+    name1.setFont(new Font("Verdana",1,20));
+    name2.setFont(new Font("Verdana",1,20));
+    name3.setFont(new Font("Verdana",1,20));
+    
+    
     credits.add(jlabel1);
+    credits.add(jlabel2);
     credits.add(destroyer);
     credits.add(aircraftcarrier);
     credits.add(submarine);
     credits.add(patrolboat);
     credits.add(raft);
+    credits.add(waterLink);
+    credits.add(space);
+    credits.add(jlabel3);
+    credits.add(name1);
+    credits.add(name2);
+    credits.add(name3);
+    
+    name1.setForeground (Color.red);
+    name2.setForeground (Color.green);
+    name3.setForeground (Color.magenta);
+    
+    
+    credits.setLayout(new BoxLayout(credits, BoxLayout.Y_AXIS));
     
     
     
