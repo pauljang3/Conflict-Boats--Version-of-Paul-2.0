@@ -120,27 +120,22 @@ public class Board {
     quit.addActionListener(al);
     mainMenu.add(quit);
     
-    JButton instructionButtons = new JButton("Instructions");
-    instructionButtons.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
-    instructionButtons.addActionListener(alInstruction);
-    mainMenu.add(instructionButtons);
+    JButton instructionButton = new JButton("Instructions");
+    instructionButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
+    instructionButton.addActionListener(alInstruction);
+    mainMenu.add(instructionButton);
     
     JButton creditsButton= new JButton ("Credits");
     creditsButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 200));
     creditsButton.addActionListener(alCredits);
     mainMenu.add(creditsButton);
-    
-    
-    
-    
-    
-    
-    
-    
+
   }
   
   
 }
+
+
 
 
 
