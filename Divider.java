@@ -2,6 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
+
 public class Divider extends JPanel {
   
   //Creating 6 JButtons
@@ -30,7 +31,6 @@ public class Divider extends JPanel {
   private void init() {
     
     //Declaring picture variables to call images
-    ImageIcon Water=new ImageIcon (this.getClass().getResource("Water.jpg"));
     ImageIcon ac=new ImageIcon (this.getClass().getResource("aircraftcarrier.jpg"));
     ImageIcon destroyer=new ImageIcon (this.getClass().getResource("destroyer.jpg"));
     ImageIcon sub=new ImageIcon (this.getClass().getResource("submarine.jpg"));
@@ -161,6 +161,5 @@ public class Divider extends JPanel {
     * @return jb  JButton
     */
   public JButton[] getButtons(){
-    return boatButtons;
-  }
+    return boatButtons;  }
 }
