@@ -10,6 +10,15 @@ public class LeftField extends JPanel{
   int cash = 4000;
   Player p1 = new Player();
   Divider divider;
+       
+      //Stores all places on the referenceBoard to -1
+  int [][] referenceBoard= new int [15][15];{
+              for(int row=0 ; row < 15 ; row++){
+                for(int column=0 ; column < 15 ; column++ ){
+                referenceBoard[row][column]=-1;
+                }
+              }
+  }
   
   public LeftField(Divider d){
     divider = d;
@@ -260,18 +269,17 @@ public class LeftField extends JPanel{
                 //Sets boat image
                 ImageIcon boat=new ImageIcon (this.getClass().getResource("boatImage.jpg"));
                 jb[i+a][j].setIcon(boat); 
-                the this .g
                 //Saves placed ship coordinates in a reference array
                 referenceBoard[i+a][j]=0;
                 
                 
                 p1.getShips()[Integer.parseInt(divider.size[0])-1].setSize(Integer.parseInt(divider.size[0]));
                 p1.setShipPosition(i+a, j, Integer.parseInt(divider.size[0]));         
-                p1.getShips()[Integer.parseInt(divider.size[0])-1].set
+                p1.getShips()[Integer.parseInt(divider.size[0])-1].setDirection("S");
                   
                   
                   
-                  xDirection("S");
+
               }
             }//end of South direction choice
             
