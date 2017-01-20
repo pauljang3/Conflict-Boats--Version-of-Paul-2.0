@@ -41,7 +41,11 @@ public class Board {
     instructions.add(imageLabel2);
     
     //Sets up main menu background
-    final JPanel mainMenu = new JPanel();    
+    final JPanel mainMenu = new JPanel();
+    mainMenu.setLayout(new BorderLayout()); 
+    ImageIcon mainBackground = new ImageIcon ("mainBackground.jpg");
+    JLabel imageLabel3 = new JLabel (mainBackground);
+    mainMenu.add(imageLabel3, BorderLayout.PAGE_START);
     frame.add(mainMenu);
 
     
@@ -98,22 +102,22 @@ public class Board {
     JButton start = new JButton ("Start");
     start.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
     start.addActionListener(al);
-    mainMenu.add(start);
+    mainMenu.add(start, BorderLayout.LINE_START);
     
     JButton instructionButton = new JButton("Instructions");
     instructionButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
     instructionButton.addActionListener(al);
-    mainMenu.add(instructionButton);
+    mainMenu.add(instructionButton, BorderLayout.CENTER);
     
     JButton creditsButton= new JButton ("Credits");
     creditsButton.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
     creditsButton.addActionListener(al);
-    mainMenu.add(creditsButton);
+    mainMenu.add(creditsButton, BorderLayout.LINE_END);
     
     JButton quit = new JButton("Quit");
     quit.setFont(new Font(start.getFont().getName(), Font.PLAIN, 50));
     quit.addActionListener(al);
-    mainMenu.add(quit);
+    mainMenu.add(quit, BorderLayout.PAGE_END);
     
 //------------------CREDIT SCREEN CREATION------------------
     
